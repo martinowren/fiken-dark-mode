@@ -104,9 +104,20 @@ body.dark-mode .panel .dropzone {
 	background-color: var(--darkmode-fiken-dark);
 }
 
+/* Frister */
+body.dark-mode .panel.panel-frister .ng-scope {
+	background-color: transparent;
+}
+
 /* Well */
 body.dark-mode .well {
 	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode .well label {
+	color: #ffffff;
+}
+body.dark-mode .well small {
+	color: #ffffff;
 }
 body.dark-mode .panel-title {
 	color: #ffffff;
@@ -124,6 +135,12 @@ body.dark-mode .table .aktiv .innboks-forslag-options a .ng-scope {
 }
 body.dark-mode .table .aktiv .innboks-forslag-options a.active::after {
 	width: 4px;
+}
+body.dark-mode table .badge {
+	background-color: var(--darkmode-fiken-dark);
+}
+body.dark-mode table .table-striped tr {
+	background-color: var(--darkmode-fiken-dark);
 }
 body.dark-mode .table .aktiv .innboks-forslag-options a {
 	border-color: var(--darkmode-fiken-dark);
@@ -220,6 +237,10 @@ body.dark-mode .btn-danger {
 	color: #ffffff;
 }
 
+body.dark-mode .modal-content .modal-body {
+	background-color: var(--darkmode-fiken-dark);
+}
+
 
 /* Searchbox */
 body.dark-mode .spotlight-wrapper input {
@@ -234,8 +255,22 @@ body.dark-mode .spotlight-wrapper .input-group-btn button svg {
 	stroke: #ffffff;
 }
 
+/* Paginations */
+body.dark-mode ul.pagination li a{
+	color: #ffffff;
+}
 
-
+/* Form */
+body.dark-mode .form-horizontal p {
+	color: #ffffff;
+}
+body.dark-mode .form-horizontal a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+body.dark-mode .form-horizontal label {
+	color: #ffffff;
+}
 /* Fiken logo */
 body.dark-mode .navbar-brand svg .fk-meny-logo-topp {
 	fill: #EEEEEE;
