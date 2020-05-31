@@ -83,6 +83,22 @@ body.dark-mode .panel resultat-graf2 > div {
 	border-radius: 8px;
 	padding: 2rem 0;
 }
+
+/* Searchbox */
+body.dark-mode .spotlight-wrapper input {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+	color: #ffffff;
+}
+body.dark-mode .spotlight-wrapper .input-group-btn button {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+body.dark-mode .spotlight-wrapper .input-group-btn button svg {
+	stroke: #ffffff;
+}
+
+
+
 /* Fiken logo */
 body.dark-mode .navbar-brand svg .fk-meny-logo-topp {
 	fill: #EEEEEE;
