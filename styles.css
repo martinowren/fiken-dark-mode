@@ -60,7 +60,7 @@ body.dark-mode #header .navbar-nav .dropdown-menu a:hover, body.dark-mode #heade
 
 /* Panels */
 body.dark-mode .panel {
-	background-color: var(--darkmode-fiken-dark-lighter-light);
+	background-color: var(--darkmode-fiken-dark-lighter);
 }
 
 body.dark-mode .panel .panel-title {
@@ -74,6 +74,11 @@ body.dark-mode .panel .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
 }
 
+body.dark-mode .panel .panel-body > .ng-scope {
+	background-color: var(--darkmode-fiken-dark-lighter);
+	
+}
+
 body.dark-mode .panel .panel-footer {
 	background-color: var(--darkmode-fiken-dark-lighter)!important;
 }
@@ -84,7 +89,28 @@ body.dark-mode .panel resultat-graf2 > div {
 	padding: 2rem 0;
 }
 
+body.dark-mode .panel .pg-kompakt-media {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+}
 
+	body.dark-mode .panel .pg-kompakt-dok-info p {
+	color: #ffffff;
+}
+
+body.dark-mode .panel .panel-body > fk-fileupload {
+	background-color: transparent!important;
+}
+body.dark-mode .panel .dropzone {
+	background-color: var(--darkmode-fiken-dark);
+}
+
+/* Well */
+body.dark-mode .well {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode .panel-title {
+	color: #ffffff;
+}
 
 /* Tables */
 body.dark-mode .table .aktiv h4 {
@@ -125,7 +151,24 @@ body.dark-mode .table .table {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
 
+/* BS Callout */
+body.dark-mode .bs-callout {
+	background-color: var(--darkmode-fiken-dark-lighter);
+	color: #ffffff;
+}
 
+body.dark-mode .bs-callout h4 {
+	color: #ffffff;
+}
+body.dark-mode .bs-callout code {
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff;
+	padding: 0.5rem;
+}
+body.dark-mode .bs-callout a {
+	color: #ffffff;
+	text-decoration: underline;
+}
 
 /* Modal */
 body.dark-mode .modal-dialog .modal-content {
