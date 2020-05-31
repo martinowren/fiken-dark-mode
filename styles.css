@@ -84,6 +84,42 @@ body.dark-mode .panel resultat-graf2 > div {
 	padding: 2rem 0;
 }
 
+/* Modal */
+body.dark-mode .modal-dialog .modal-content {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+	color: #ffffff;
+}
+
+body.dark-mode .modal-dialog .modal-content .panel-body,body.dark-mode .modal-dialog .modal-content .panel-body .list-group-item {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+	color: #ffffff;
+}
+
+body.dark-mode .modal-dialog .modal-content .bg-default-light, body.dark-mode .modal-dialog .modal-content .well  {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+body.dark-mode .modal-dialog .modal-content button, body.dark-mode .modal-dialog .modal-content a {
+	color: #ffffff;
+	text-decoration: underline;
+	background: var(--darkmode-fiken-dark-lighter-light);
+}
+
+body.dark-mode .modal-dialog .modal-content button.styled-combobox-toggle {
+	background: var(--darkmode-fiken-dark-lighter-light);
+	border-color: var(--darkmode-fiken-dark);
+}
+
+body.dark-mode .modal-dialog .modal-content button:hover, body.dark-mode .modal-dialog .modal-content a:hover {
+	color: rgba(255,255,255,0.8);
+	text-decoration: underline;
+}
+
+body.dark-mode .modal-dialog .modal-content .modal-header {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+
 /* Searchbox */
 body.dark-mode .spotlight-wrapper input {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
