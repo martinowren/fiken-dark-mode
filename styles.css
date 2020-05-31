@@ -95,8 +95,15 @@ body.dark-mode .modal-dialog .modal-content .panel-body,body.dark-mode .modal-di
 	color: #ffffff;
 }
 
-body.dark-mode .modal-dialog .modal-content .bg-default-light, body.dark-mode .modal-dialog .modal-content .well  {
+body.dark-mode .modal-dialog .modal-content .bg-default-light, body.dark-mode .modal-dialog .modal-content .well,body.dark-mode .modal-dialog .modal-content .vis-bilag .list-group-item
+,body.dark-mode .modal-dialog .modal-content .media, body.dark-mode .modal-dialog .modal-content .media > div, body.dark-mode .modal-dialog .modal-content .list-group-item, body.dark-mode .modal-dialog .modal-content .bg-default   {
 	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode .modal-dialog .modal-content .media a {
+	background-color: rgba(255,255,255,0);
+}
+body.dark-mode .modal-dialog .modal-content .list-group-item {
+	border-color: var(--darkmode-fiken-dark);
 }
 
 body.dark-mode .modal-dialog .modal-content button, body.dark-mode .modal-dialog .modal-content a {
