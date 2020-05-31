@@ -127,6 +127,9 @@ body.dark-mode .panel-title {
 body.dark-mode .table .aktiv h4 {
 	color: #ffffff;
 }
+body.dark-mode .table tr.aktiv {
+	background-color: var(--darkmode-fiken-dark);
+}
 body.dark-mode .table .aktiv .well,body.dark-mode .table .aktiv .innboks-forslag-options a {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
@@ -278,4 +281,16 @@ body.dark-mode .navbar-brand svg .fk-meny-logo-topp {
 
 body.dark-mode .navbar-brand svg .fk-meny-logo-bunn {
 	fill: #757575;
+}
+
+/* Button */
+body.dark-mode button, body.dark-mode a.btn-default {
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff;
+	transition: all .2s ease-in-out;
+}
+body.dark-mode button:hover, body.dark-mode a.btn-default:hover {
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
+	background-color: var(--darkmode-fiken-dark-lighter);
+	color: #ffffff;
 }
