@@ -1,7 +1,14 @@
 /* body.dark-mode */
 
+:root {
+	--darkmode-fiken-dark: rgb(47, 52, 55);
+	--darkmode-fiken-dark-lighter: rgb(55, 60, 63);
+	--darkmode-fiken-dark-lighter-light: rgb(62,68,72);
+
+}
+
 body.dark-mode nav.navbar {
-	background-color: rgb(55, 60, 63)!important;
+	background-color: var(--darkmode-fiken-dark-lighter)!important;
 }
 
 body.dark-mode #header a.header-btn {
@@ -9,12 +16,12 @@ body.dark-mode #header a.header-btn {
 }
 
 body.dark-mode .navbar-default .navbar-nav > .open > a,body.dark-mode .navbar-default .navbar-nav > .open > a:focus,body.dark-mode .navbar-default .navbar-nav > .open > a:hover {
-	background-color: rgb(55, 60, 63)!important;
+	background-color: var(--darkmode-fiken-dark-lighter)!important;
 	color: white;
 }
 
 body.dark-mode div#content {
-	background-color: rgb(47, 52, 55)!important;
+	background-color: var(--darkmode-fiken-dark)!important;
 }
 
 body.dark-mode div#content .page-header h1 {
@@ -22,11 +29,34 @@ body.dark-mode div#content .page-header h1 {
 }
 
 body.dark-mode #footer {
-	background-color: rgb(55, 60, 63);
+	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
 }
 
 body.dark-mode #footer a {
 	color: #ffffff;
 	text-decoration: underline;
+}
+
+/* Panels */
+body.dark-mode .panel {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+}
+
+body.dark-mode .panel .panel-footer {
+	background-color: var(--darkmode-fiken-dark-lighter)!important;
+}
+
+body.dark-mode .panel resultat-graf2 > div {
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 2rem 0;
+}
+/* Fiken logo */
+body.dark-mode .navbar-brand svg .fk-meny-logo-topp {
+	fill: #EEEEEE;
+}
+
+body.dark-mode .navbar-brand svg .fk-meny-logo-bunn {
+	fill: #757575;
 }
