@@ -7,18 +7,7 @@
 
 }
 
-body.dark-mode nav.navbar {
-	background-color: var(--darkmode-fiken-dark-lighter)!important;
-}
 
-body.dark-mode #header a.header-btn {
-	color: white!important;
-}
-
-body.dark-mode .navbar-default .navbar-nav > .open > a,body.dark-mode .navbar-default .navbar-nav > .open > a:focus,body.dark-mode .navbar-default .navbar-nav > .open > a:hover {
-	background-color: var(--darkmode-fiken-dark-lighter)!important;
-	color: white;
-}
 
 body.dark-mode div#content {
 	background-color: var(--darkmode-fiken-dark)!important;
@@ -37,6 +26,37 @@ body.dark-mode #footer a {
 	color: #ffffff;
 	text-decoration: underline;
 }
+
+/* Navbar */
+body.dark-mode nav.navbar {
+	background-color: var(--darkmode-fiken-dark-lighter)!important;
+}
+
+body.dark-mode #header a.header-btn {
+	color: #ffffff!important;
+}
+
+body.dark-mode .navbar-default .navbar-nav > .open > a,body.dark-mode .navbar-default .navbar-nav > .open > a:focus,body.dark-mode .navbar-default .navbar-nav > .open > a:hover {
+	background-color: var(--darkmode-fiken-dark-lighter)!important;
+	color: #ffffff;
+}
+
+body.dark-mode #header .navbar-nav .dropdown-menu {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode #header .navbar-nav .dropdown-menu .dropdown-header {
+	color: rgba(255,255,255,0.5);
+}
+body.dark-mode #header .navbar-nav .dropdown-menu a, body.dark-mode #header .navbar-nav .dropdown-menu a:hover, body.dark-mode #header .navbar-nav .dropdown-menu a:focus {
+	color: #ffffff;
+}
+
+body.dark-mode #header .navbar-nav .dropdown-menu a:hover, body.dark-mode #header .navbar-nav .dropdown-menu a:focus {
+	background-color: var(--darkmode-fiken-dark-lighter);
+	text-decoration: underline;
+}
+
+
 
 /* Panels */
 body.dark-mode .panel {
