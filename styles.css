@@ -84,34 +84,48 @@ body.dark-mode .panel resultat-graf2 > div {
 	padding: 2rem 0;
 }
 
-body.dark-mode .panel .panel-body .table .aktiv h4 {
+
+
+/* Tables */
+body.dark-mode .table .aktiv h4 {
 	color: #ffffff;
 }
-body.dark-mode .panel .panel-body .table .aktiv .well,body.dark-mode .panel .panel-body .table .aktiv .innboks-forslag-options a {
+body.dark-mode .table .aktiv .well,body.dark-mode .table .aktiv .innboks-forslag-options a {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode .panel .panel-body .table .aktiv .innboks-forslag-options a .ng-scope {
+body.dark-mode .table .aktiv .innboks-forslag-options a .ng-scope {
 	color: rgba(255,255,255,0.5)
 }
-body.dark-mode .panel .panel-body .table .aktiv .innboks-forslag-options a.active::after {
+body.dark-mode .table .aktiv .innboks-forslag-options a.active::after {
 	width: 4px;
 }
-body.dark-mode .panel .panel-body .table .aktiv .innboks-forslag-options a {
+body.dark-mode .table .aktiv .innboks-forslag-options a {
 	border-color: var(--darkmode-fiken-dark);
 }
-body.dark-mode .panel .panel-body .table .aktiv .ng-binding {
+body.dark-mode .table .aktiv .ng-binding {
 	color: #ffffff;
 	text-decoration: underline;
 }
-body.dark-mode .panel .panel-body .table .aktiv .ng-binding:hover {
+body.dark-mode .table .aktiv .ng-binding:hover {
 	color: rgba(255,255,255,0.8);
 }
-body.dark-mode .panel .panel-body .table .aktiv .ki-status {
+body.dark-mode .table .aktiv .ki-status {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode .panel .panel-body .table .aktiv .har-innboks-forslag::after {
+body.dark-mode .table .aktiv .har-innboks-forslag::after {
 	color: rgba(255,255,255,0.6);
 }
+
+body.dark-mode .table .aktivert.muted {
+	color: #ffffff;
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode .table .table {
+	color: #ffffff;
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+
 
 /* Modal */
 body.dark-mode .modal-dialog .modal-content {
@@ -153,6 +167,14 @@ body.dark-mode .modal-dialog .modal-content button:hover, body.dark-mode .modal-
 
 body.dark-mode .modal-dialog .modal-content .modal-header {
 	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode .btn-success {
+	background-color: #009975!important;
+	color: #ffffff;
+}
+body.dark-mode .btn-danger {
+	background-color: #cc004b!important;
+	color: #ffffff;
 }
 
 
