@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+   
+	"name": "Fiken - Darkmode",
+	"version": "0.1.0",
+	"description": "Utvidelse som gjør Fiken.no darkmode",
+   
+	"content_scripts": [{
+	  "css": ["styles.css"],
+	  "js": ["content.js"],
+	  "matches": ["https://fiken.no/*"]
+	}]
+   
+  }

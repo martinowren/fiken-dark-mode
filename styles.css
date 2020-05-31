@@ -1,0 +1,18 @@
+body.dark-mode
+
+body.dark-mode nav.navbar {
+	background-color: rgb(55, 60, 63)!important;
+}
+
+body.dark-mode #header a.header-btn {
+	color: white!important;
+}
+
+body.dark-mode .navbar-default .navbar-nav > .open > a,body.dark-mode .navbar-default .navbar-nav > .open > a:focus,body.dark-mode .navbar-default .navbar-nav > .open > a:hover {
+	background-color: rgb(55, 60, 63)!important;
+	color: white;
+}
+
+body.dark-mode div.content {
+	background-color: rgb(47, 52, 55)!important;
+}
