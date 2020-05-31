@@ -63,6 +63,17 @@ body.dark-mode .panel {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 }
 
+body.dark-mode .panel .panel-title {
+	color: #ffffff;
+}
+body.dark-mode .panel .panel-body .flexy-body a, body.dark-mode .panel .panel-body .flexy-body, body.dark-mode .panel .panel-body .key-number-body{
+	color: #ffffff;
+}
+
+body.dark-mode .panel .panel-body .flexy-icon svg > path {
+	fill: #ffffff;
+}
+
 body.dark-mode .panel .panel-footer {
 	background-color: var(--darkmode-fiken-dark-lighter)!important;
 }
