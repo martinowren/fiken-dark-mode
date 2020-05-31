@@ -84,6 +84,35 @@ body.dark-mode .panel resultat-graf2 > div {
 	padding: 2rem 0;
 }
 
+body.dark-mode .panel .panel-body .table .aktiv h4 {
+	color: #ffffff;
+}
+body.dark-mode .panel .panel-body .table .aktiv .well,body.dark-mode .panel .panel-body .table .aktiv .innboks-forslag-options a {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode .panel .panel-body .table .aktiv .innboks-forslag-options a .ng-scope {
+	color: rgba(255,255,255,0.5)
+}
+body.dark-mode .panel .panel-body .table .aktiv .innboks-forslag-options a.active::after {
+	width: 4px;
+}
+body.dark-mode .panel .panel-body .table .aktiv .innboks-forslag-options a {
+	border-color: var(--darkmode-fiken-dark);
+}
+body.dark-mode .panel .panel-body .table .aktiv .ng-binding {
+	color: #ffffff;
+	text-decoration: underline;
+}
+body.dark-mode .panel .panel-body .table .aktiv .ng-binding:hover {
+	color: rgba(255,255,255,0.8);
+}
+body.dark-mode .panel .panel-body .table .aktiv .ki-status {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode .panel .panel-body .table .aktiv .har-innboks-forslag::after {
+	color: rgba(255,255,255,0.6);
+}
+
 /* Modal */
 body.dark-mode .modal-dialog .modal-content {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
