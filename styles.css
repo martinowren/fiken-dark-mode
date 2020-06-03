@@ -338,6 +338,17 @@ fk-forside-nokkeltall .panel-body .flexy-body {
 	color: #ffffff80!important;
 	font-weight: 400;
 }
+
+/* Forside graf */
+fk-forside-graf .panel-body a.key-number:hover {
+	background-color: var(--darkmode-fiken-dark);
+	box-shadow: none;
+}
+
+/* Bankkontoer */
+fk-forside-bankkonto .panel-body div.flexy-body {
+	color: #ffffff80!important;
+}
 /* Form */
 body.dark-mode .form-horizontal p {
 	color: #ffffff;
