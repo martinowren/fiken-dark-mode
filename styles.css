@@ -274,6 +274,17 @@ body.dark-mode .modal-content .modal-body {
 	background-color: var(--darkmode-fiken-dark);
 }
 
+/* Hoved CTA */
+body.dark-mode a.btn.kjopt-noe {
+	background-color: transparent;
+	border-color: #ffffff;
+	color: #ffffff;
+}
+body.dark-mode a.btn.kjopt-noe:hover {
+	color: #ffffff;
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
 /* Hovedbokvelger */
 fk-hovedbokvelger-select .btn-group.btn-group-input > .btn {
 	background-color: var(--darkmode-fiken-dark-lighter);
@@ -315,6 +326,18 @@ body.dark-mode ul.pagination li a{
 	color: #ffffff;
 }
 
+/* Nøkkeltall */
+fk-forside-nokkeltall .panel-body a {
+	color: #ffffff;
+}
+fk-forside-nokkeltall .panel-body a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+fk-forside-nokkeltall .panel-body .flexy-body {
+	color: #ffffff80!important;
+	font-weight: 400;
+}
 /* Form */
 body.dark-mode .form-horizontal p {
 	color: #ffffff;
