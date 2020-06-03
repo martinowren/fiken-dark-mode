@@ -7,6 +7,16 @@
 
 }
 
+div, p, h4, h5,h6 {
+	color: #ffffff80;
+}
+a {
+	color: #ffffff;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
 
 
 body.dark-mode div#content {
@@ -93,8 +103,28 @@ body.dark-mode .panel .pg-kompakt-media {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 }
 
-	body.dark-mode .panel .pg-kompakt-dok-info p {
+body.dark-mode .panel .pg-kompakt-dok-info p {
 	color: #ffffff;
+}
+
+body.dark-mode .panel.bankkonti .vanlig .ng-binding {
+	color: #ffffff80;
+	font-weight: 500;
+}
+body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a, body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a span, body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a span strong {
+	color: #ffffff!important;
+}
+body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a:hover, body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a:hover span {
+	color: #ffffff!important;
+	text-decoration: underline;
+}
+
+body.dark-mode .panel.bankkonti .vanlig .konto-navn a {
+	color: #ffffff;
+}
+body.dark-mode .panel.bankkonti .vanlig .konto-navn a:hover {
+	color: #ffffff;
+	text-decoration: underline;
 }
 
 body.dark-mode .panel .panel-body > fk-fileupload {
@@ -244,6 +274,28 @@ body.dark-mode .modal-content .modal-body {
 	background-color: var(--darkmode-fiken-dark);
 }
 
+/* Hovedbokvelger */
+fk-hovedbokvelger-select .btn-group.btn-group-input > .btn {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+fk-hovedbokvelger-select .btn-group.btn-group-input > .btn:hover {
+	background-color: var(--darkmode-fiken-dark);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);/* rgba(0, 0, 0, 0.1) 0px 5px 15px 0px */
+}
+fk-hovedbokvelger-select .btn-group.btn-group-input > .btn.active {
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff;
+}
+fk-hovedbokvelger-select .styled-select {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+fk-hovedbokvelger-select .styled-select select {
+	background-color: var(--darkmode-fiken-dark-lighter);
+	color: #ffffff;
+}
+fk-hovedbokvelger-select .styled-select:after {
+	border-color: #ffffff;
+}
 
 /* Searchbox */
 body.dark-mode .spotlight-wrapper input {
