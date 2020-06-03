@@ -345,6 +345,36 @@ fk-forside-graf .panel-body a.key-number:hover {
 	box-shadow: none;
 }
 
+/* Forside-hendelser */
+fk-forside-hendelser .panel-body .flexy-row .flexy-icon {
+
+}
+fk-forside-hendelser .panel-body .flexy-row .flexy-right {
+	color: #ffffff80;
+}
+fk-forside-hendelser .panel-body .flexy-row .flexy-subrow {
+	color: #ffffff80;
+}
+fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a {
+	color: #ffffff;
+}
+fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/* Brukerstyrt */
+fk-forside-brukerstyrt .panel-body p {
+	color: #ffffff80;
+}
+fk-forside-brukerstyrt .panel-body ul li a {
+	color: #ffffff;
+}
+fk-forside-brukerstyrt .panel-body ul li a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 /* Bankkontoer */
 fk-forside-bankkonto .panel-body div.flexy-body {
 	color: #ffffff80!important;
