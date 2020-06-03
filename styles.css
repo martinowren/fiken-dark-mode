@@ -347,6 +347,10 @@ fk-forside-nokkeltall .panel-body .flexy-body {
 	color: #ffffff80!important;
 	font-weight: 400;
 }
+fk-forside-nokkeltall .panel-body .flexy-icon svg > path {
+	fill: #ffffff;
+	stroke: #000000;
+}
 
 /* Forside graf */
 fk-forside-graf .panel-body a.key-number:hover {
