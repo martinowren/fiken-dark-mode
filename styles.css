@@ -130,6 +130,13 @@ body.dark-mode .panel.bankkonti .vanlig .konto-navn a:hover {
 body.dark-mode .panel .panel-body > fk-fileupload {
 	background-color: transparent!important;
 }
+
+body.dark-mode .panel .panel-body table tbody tr.muted {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+}
+body.dark-mode .panel .panel-body table tbody tr span.ki-status {
+	background-color: var(--darkmode-fiken-dark);
+}
 body.dark-mode .panel .dropzone {
 	background-color: var(--darkmode-fiken-dark);
 }
@@ -269,7 +276,32 @@ body.dark-mode .modal-dialog .modal-content button:hover, body.dark-mode .modal-
 
 body.dark-mode .modal-dialog .modal-content .modal-header {
 	background-color: var(--darkmode-fiken-dark-lighter);
+	color: #ffffff;
 }
+body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-heading {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options {
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff;
+}
+body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options .overskrift-list-group-sm > strong{
+	color: #ffffff;
+}
+body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options .list-group-item{
+	color: #ffffff80;
+}
+body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-content .input-group input{
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff;
+}
+body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-footer{
+	background-color: var(--darkmode-fiken-dark);
+}
+
+
+
+
 body.dark-mode .btn-success {
 	background-color: #009975!important;
 	color: #ffffff;
