@@ -442,6 +442,16 @@ body.dark-mode .forside-header {
 	background-color: var(--darkmode-fiken-dark);
 	border-color: #000000;
 }
+body.dark-mode .forside-header nav#navbar a.btn {
+	background-color: transparent;
+    color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+}
+
+body.dark-mode .forside-header nav#navbar a.btn:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(55, 60, 63);
+}
 body.dark-mode#home-page {
 	background-color: var(--darkmode-fiken-dark);
 }
@@ -471,4 +481,50 @@ body.dark-mode .support-review .review .review-item p{
 }
 body.dark-mode .support-review .review .review-item p.review-author {
 	color: #ffffff80;
+}
+body.dark-mode .support-review .carousel-ctrl button {
+	background-color: transparent;
+}
+body.dark-mode .support-review .carousel-ctrl button:hover {
+	background-color: transparent;
+	box-shadow: none;
+}
+body.dark-mode .support-review .carousel-ctrl button circle {
+	color: var(--darkmode-fiken-dark-lighter-light);
+}
+body.dark-mode .support-review .carousel-ctrl button:hover circle {
+	color: var(--darkmode-fiken-dark);
+}
+body.dark-mode .support-review .carousel-ctrl button polyline {
+	stroke: #ffffff;
+}
+
+body.dark-mode .forside-header nav#navbar a svg g#fiken-logo path:nth-child(1) {
+	fill: #EEEEEE;
+}
+
+body.dark-mode .forside-header nav#navbar a svg g#fiken-logo path:nth-child(2){
+	fill: #757575;
+}
+
+
+/* Forside Features */
+body.dark-mode .fiken-features {
+	background-color: var(--darkmode-fiken-dark);
+}
+
+body.dark-mode .fiken-features .features-group .feature h3 {
+	color: #ffffff;
+}
+body.dark-mode .fiken-features .features-group .feature p {
+	color: #ffffff80;
+}
+body.dark-mode .fiken-features a.btn {
+	background-color: transparent;
+    color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+}
+body.dark-mode .fiken-features a.btn:hover {
+	color: rgb(255, 255, 255);
+    background-color: rgb(55, 60, 63);
 }
