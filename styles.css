@@ -580,3 +580,27 @@ body.dark-mode#log-in-page .google-btn-section p {
 body.dark-mode#log-in-page .google-btn-section a#googleLogin .google-button-text {
 	color: var(--darkmode-fiken-dark);
 }
+
+/* Mine foretak */
+body.dark-mode .panel .panel-body .list-group-item span, body.dark-mode .panel .panel-body .list-group-item div, body.dark-mode .panel .panel-body .list-group-item a  {
+	color: #ffffff;
+}
+body.dark-mode .panel .panel-body .list-group-item fk-icon svg polyline {
+	stroke: #000000;
+}
+body.dark-mode .panel .panel-body .list-group-header {
+	background-color: var(--darkmode-fiken-dark);
+}
+body.dark-mode .panel .panel-body .list-group-item {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+}
+body.dark-mode .panel .panel-body .list-group {
+	border-radius: 8px;
+	overflow: hidden;
+}
+body.dark-mode .panel .panel-body .list-group-header a, body.dark-mode .panel .panel-body .list-group-header div, body.dark-mode .panel .panel-body .list-group-header span {
+	color: #ffffff;
+}
+body.dark-mode .panel .panel-body .list-group-header fk-icon svg polyline {
+	stroke: #ffffff; 
+}
