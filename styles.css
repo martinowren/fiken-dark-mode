@@ -457,6 +457,29 @@ body.dark-mode .navbar-brand svg .fk-meny-logo-bunn {
 	fill: #757575;
 }
 
+/* Modal Kontovelger */
+body.dark-mode fk-kontovelger .styled-combobox-content {
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff80;
+}
+body.dark-mode fk-kontovelger .styled-combobox-content .styled-combobox-heading{
+	background-color: var(--darkmode-fiken-dark);
+}
+body.dark-mode fk-kontovelger .styled-combobox-content .styled-combobox-heading .input-group input{
+	background-color: var(--darkmode-fiken-dark-lighter);
+	color: #ffffff;
+}
+body.dark-mode fk-kontovelger .styled-combobox-content .fiken-dropdown-options  .overskrift-list-group-sm > strong  {
+	color: #ffffff;
+}
+body.dark-mode fk-kontovelger .styled-combobox-content .fiken-dropdown-options .list-group-item > span  {
+	color: #ffffff80;
+}
+body.dark-mode fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height p, body.dark-mode fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height li
+, body.dark-mode fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height .fk-avkuttet-linje{
+	color: black!important;
+}
+
 /* Button */
 body.dark-mode button, body.dark-mode a.btn-default {
 	background-color: var(--darkmode-fiken-dark);
