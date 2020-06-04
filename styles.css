@@ -528,3 +528,55 @@ body.dark-mode .fiken-features a.btn:hover {
 	color: rgb(255, 255, 255);
     background-color: rgb(55, 60, 63);
 }
+
+/* Logg inn*/
+body.dark-mode header {
+	background-color: var(--darkmode-fiken-dark);
+	border-color: #000000;
+}
+body.dark-mode header nav#navbar a.btn {
+	background-color: transparent;
+    color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+}
+
+body.dark-mode header nav#navbar a.btn:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(55, 60, 63);
+}
+
+body.dark-mode header nav#navbar a svg g#fiken-logo path:nth-child(1) {
+	fill: #EEEEEE;
+}
+
+body.dark-mode header nav#navbar a svg g#fiken-logo path:nth-child(2){
+	fill: #757575;
+}
+
+body.dark-mode#log-in-page {
+	background-color: var(--darkmode-fiken-dark);
+}
+
+body.dark-mode#log-in-page h1 {
+	color: #ffffff;
+}
+body.dark-mode#log-in-page #loginform label, body.dark-mode#log-in-page #loginform label span  {
+	color: #ffffff80;
+}
+body.dark-mode#log-in-page #loginform button.btn {
+	background-color: transparent;
+    color: rgb(255, 255, 255);
+	border: 1px solid rgb(255, 255, 255);
+}
+
+body.dark-mode#log-in-page #loginform button.btn:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(55, 60, 63);
+}
+
+body.dark-mode#log-in-page .google-btn-section p {
+	color: #ffffff;
+}
+body.dark-mode#log-in-page .google-btn-section a#googleLogin .google-button-text {
+	color: var(--darkmode-fiken-dark);
+}
