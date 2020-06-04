@@ -584,6 +584,19 @@ body.dark-mode .fiken-features a.btn:hover {
     background-color: rgb(55, 60, 63);
 }
 
+/* Import fra nettbank */
+body.dark-mode table tbody tr td ul.dropdown-menu {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body.dark-mode table tbody tr td ul.dropdown-menu li a {
+	color: #ffffff
+}
+body.dark-mode table tbody tr td ul.dropdown-menu li a:hover {
+	background-color: var(--darkmode-fiken-dark);
+}
+
+
+
 /* Logg inn*/
 body.dark-mode header {
 	background-color: var(--darkmode-fiken-dark);
