@@ -7,13 +7,13 @@
 
 }
 
-div, p, h4, h5,h6 {
+body.dark-mode div, p, h4, h5,h6 {
 	color: #ffffff80;
 }
-a {
+body.dark-mode a {
 	color: #ffffff;
 }
-a:hover {
+body.dark-mode a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
@@ -295,25 +295,25 @@ body.dark-mode a.btn.kjopt-noe:hover {
 }
 
 /* Hovedbokvelger */
-fk-hovedbokvelger-select .btn-group.btn-group-input > .btn {
+body.dark-mode fk-hovedbokvelger-select .btn-group.btn-group-input > .btn {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-fk-hovedbokvelger-select .btn-group.btn-group-input > .btn:hover {
+body.dark-mode fk-hovedbokvelger-select .btn-group.btn-group-input > .btn:hover {
 	background-color: var(--darkmode-fiken-dark);
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);/* rgba(0, 0, 0, 0.1) 0px 5px 15px 0px */
 }
-fk-hovedbokvelger-select .btn-group.btn-group-input > .btn.active {
+body.dark-mode fk-hovedbokvelger-select .btn-group.btn-group-input > .btn.active {
 	background-color: var(--darkmode-fiken-dark);
 	color: #ffffff;
 }
-fk-hovedbokvelger-select .styled-select {
+body.dark-mode fk-hovedbokvelger-select .styled-select {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-fk-hovedbokvelger-select .styled-select select {
+body.dark-mode fk-hovedbokvelger-select .styled-select select {
 	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
 }
-fk-hovedbokvelger-select .styled-select:after {
+body.dark-mode fk-hovedbokvelger-select .styled-select:after {
 	border-color: #ffffff;
 }
 
@@ -336,60 +336,73 @@ body.dark-mode ul.pagination li a{
 }
 
 /* Nøkkeltall */
-fk-forside-nokkeltall .panel-body a {
+body.dark-mode fk-forside-nokkeltall .panel-body a {
 	color: #ffffff;
 }
-fk-forside-nokkeltall .panel-body a:hover {
+body.dark-mode fk-forside-nokkeltall .panel-body a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
-fk-forside-nokkeltall .panel-body .flexy-body {
+body.dark-mode fk-forside-nokkeltall .panel-body .flexy-body {
 	color: #ffffff80!important;
 	font-weight: 400;
 }
-fk-forside-nokkeltall .panel-body .flexy-icon svg > path {
+body.dark-mode fk-forside-nokkeltall .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
 	stroke: #000000;
 }
 
+
+/* fk-forside-innboks */
+body.dark-mode fk-forside-innboks .panel .panel-body .flexy-icon svg > path {
+	fill: #ffffff;
+	stroke: #000000;
+}
+body.dark-mode fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:hover,fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:focus, fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:active  {
+	background-color: var(--darkmode-fiken-dark);
+	box-shadow: none;
+}
+body.dark-mode fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:hover svg > polyline,fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:focus svg > polyline, fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:active svg > polyline {
+	color: #ffffff;
+}
 /* Forside graf */
-fk-forside-graf .panel-body a.key-number:hover {
+body.dark-mode fk-forside-graf .panel-body a.key-number:hover {
 	background-color: var(--darkmode-fiken-dark);
 	box-shadow: none;
 }
 
 /* Forside-hendelser */
-fk-forside-hendelser .panel-body .flexy-row .flexy-icon {
+body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-icon {
 
 }
-fk-forside-hendelser .panel-body .flexy-row .flexy-right {
+body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-right {
 	color: #ffffff80;
 }
-fk-forside-hendelser .panel-body .flexy-row .flexy-subrow {
+body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-subrow {
 	color: #ffffff80;
 }
-fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a {
+body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a {
 	color: #ffffff;
 }
-fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a:hover {
+body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
 
 /* Brukerstyrt */
-fk-forside-brukerstyrt .panel-body p {
+body.dark-mode fk-forside-brukerstyrt .panel-body p {
 	color: #ffffff80;
 }
-fk-forside-brukerstyrt .panel-body ul li a {
+body.dark-mode fk-forside-brukerstyrt .panel-body ul li a {
 	color: #ffffff;
 }
-fk-forside-brukerstyrt .panel-body ul li a:hover {
+body.dark-mode fk-forside-brukerstyrt .panel-body ul li a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
 
 /* Bankkontoer */
-fk-forside-bankkonto .panel-body div.flexy-body {
+body.dark-mode fk-forside-bankkonto .panel-body div.flexy-body {
 	color: #ffffff80!important;
 }
 /* Form */
@@ -422,4 +435,40 @@ body.dark-mode button:hover, body.dark-mode a.btn-default:hover {
 	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
 	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
+}
+
+/* Startscreen */
+body.dark-mode .forside-header {
+	background-color: var(--darkmode-fiken-dark);
+	border-color: #000000;
+}
+body.dark-mode#home-page {
+	background-color: var(--darkmode-fiken-dark);
+}
+
+body.dark-mode .hero-section h1.hero-title {
+	color: #ffffff;
+}
+body.dark-mode .hero-section p.hero-description {
+	color: #ffffff80;
+}
+body.dark-mode h2.heading-two {
+	color: #ffffff;
+}
+body.dark-mode p.description {
+	color: #ffffff80;
+}
+
+body.dark-mode .support-review {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+body.dark-mode .support-review .review .review-item {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+}
+body.dark-mode .support-review .review .review-item p{
+	color: #ffffff;
+}
+body.dark-mode .support-review .review .review-item p.review-author {
+	color: #ffffff80;
 }
