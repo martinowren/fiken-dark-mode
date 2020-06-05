@@ -9,6 +9,9 @@
 		"scripts": ["background.js"],
 		"persistent": false
 	},
+	"icons": {
+		"32": "fikenBlue.png"
+	},
 	"content_scripts": [
 		{
 			"matches": ["https://fiken.no/*/*/bank/bankavstemming/kladd/*"],
