@@ -869,3 +869,20 @@ body
 body fk-oppfolging-robot-lop .timeline-vertical {
 	--timeline-color: var(--darkmode-fiken-dark-lighter-light) !important;
 }
+
+/* Frister */
+body .popover {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+body .popover strong {
+	color: #ffffff;
+}
+
+/* Frister fk-frist-corona-advarsel */
+body fk-frist-corona-advarsel .bg-warning {
+	background-color: var(--darkmode-fiken-dark);
+}
+body fk-frist-corona-advarsel .bg-warning p {
+	color: #ffffff;
+}
