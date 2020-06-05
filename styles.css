@@ -1,4 +1,4 @@
-/* body.dark-mode */
+/* body */
 
 :root {
 	--darkmode-fiken-dark: rgb(47, 52, 55);
@@ -7,61 +7,61 @@
 
 }
 
-body.dark-mode div, p, h4, h5,h6 {
+body div, p, h4, h5,h6 {
 	color: #ffffff80;
 }
-body.dark-mode a {
+body a {
 	color: #ffffff;
 }
-body.dark-mode a:hover {
+body a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
 
 
-body.dark-mode div#content {
+body div#content {
 	background-color: var(--darkmode-fiken-dark)!important;
 }
 
-body.dark-mode div#content .page-header h1 {
+body div#content .page-header h1 {
 	color: #ffffff;
 }
 
-body.dark-mode #footer {
+body #footer {
 	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
 }
 
-body.dark-mode #footer a {
+body #footer a {
 	color: #ffffff;
 	text-decoration: underline;
 }
 
 /* Navbar */
-body.dark-mode nav.navbar {
+body nav.navbar {
 	background-color: var(--darkmode-fiken-dark-lighter)!important;
 }
 
-body.dark-mode #header a.header-btn {
+body #header a.header-btn {
 	color: #ffffff!important;
 }
 
-body.dark-mode .navbar-default .navbar-nav > .open > a,body.dark-mode .navbar-default .navbar-nav > .open > a:focus,body.dark-mode .navbar-default .navbar-nav > .open > a:hover {
+body .navbar-default .navbar-nav > .open > a,body .navbar-default .navbar-nav > .open > a:focus,body .navbar-default .navbar-nav > .open > a:hover {
 	background-color: var(--darkmode-fiken-dark-lighter)!important;
 	color: #ffffff;
 }
 
-body.dark-mode #header .navbar-nav .dropdown-menu {
+body #header .navbar-nav .dropdown-menu {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode #header .navbar-nav .dropdown-menu .dropdown-header {
+body #header .navbar-nav .dropdown-menu .dropdown-header {
 	color: rgba(255,255,255,0.5);
 }
-body.dark-mode #header .navbar-nav .dropdown-menu a, body.dark-mode #header .navbar-nav .dropdown-menu a:hover, body.dark-mode #header .navbar-nav .dropdown-menu a:focus {
+body #header .navbar-nav .dropdown-menu a, body #header .navbar-nav .dropdown-menu a:hover, body #header .navbar-nav .dropdown-menu a:focus {
 	color: #ffffff;
 }
 
-body.dark-mode #header .navbar-nav .dropdown-menu a:hover, body.dark-mode #header .navbar-nav .dropdown-menu a:focus {
+body #header .navbar-nav .dropdown-menu a:hover, body #header .navbar-nav .dropdown-menu a:focus {
 	background-color: var(--darkmode-fiken-dark-lighter);
 	text-decoration: underline;
 }
@@ -69,606 +69,606 @@ body.dark-mode #header .navbar-nav .dropdown-menu a:hover, body.dark-mode #heade
 
 
 /* Panels */
-body.dark-mode .panel {
+body .panel {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
 
-body.dark-mode .panel .panel-title {
+body .panel .panel-title {
 	color: #ffffff;
 }
-body.dark-mode .panel .panel-body .flexy-body a, body.dark-mode .panel .panel-body .flexy-body, body.dark-mode .panel .panel-body .key-number-body{
+body .panel .panel-body .flexy-body a, body .panel .panel-body .flexy-body, body .panel .panel-body .key-number-body{
 	color: #ffffff;
 }
 
-body.dark-mode .panel .panel-body .flexy-icon svg > path {
+body .panel .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
 }
 
-body.dark-mode .panel .panel-body > .ng-scope {
+body .panel .panel-body > .ng-scope {
 	background-color: var(--darkmode-fiken-dark-lighter);
 	
 }
 
-body.dark-mode .panel .panel-footer {
+body .panel .panel-footer {
 	background-color: var(--darkmode-fiken-dark-lighter)!important;
 }
 
-body.dark-mode .panel resultat-graf2 > div {
+body .panel resultat-graf2 > div {
 	background-color: #ffffff;
 	border-radius: 8px;
 	padding: 2rem 0;
 }
 
-body.dark-mode .panel .pg-kompakt-media {
+body .panel .pg-kompakt-media {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 }
 
-body.dark-mode .panel .pg-kompakt-dok-info p {
+body .panel .pg-kompakt-dok-info p {
 	color: #ffffff;
 }
 
-body.dark-mode .panel.bankkonti .vanlig .ng-binding {
+body .panel.bankkonti .vanlig .ng-binding {
 	color: #ffffff80;
 	font-weight: 500;
 }
-body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a, body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a span, body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a span strong {
+body .panel.bankkonti .vanlig .konto-avstemt a, body .panel.bankkonti .vanlig .konto-avstemt a span, body .panel.bankkonti .vanlig .konto-avstemt a span strong {
 	color: #ffffff!important;
 }
-body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a:hover, body.dark-mode .panel.bankkonti .vanlig .konto-avstemt a:hover span {
+body .panel.bankkonti .vanlig .konto-avstemt a:hover, body .panel.bankkonti .vanlig .konto-avstemt a:hover span {
 	color: #ffffff!important;
 	text-decoration: underline;
 }
 
-body.dark-mode .panel.bankkonti .vanlig .konto-navn a {
+body .panel.bankkonti .vanlig .konto-navn a {
 	color: #ffffff;
 }
-body.dark-mode .panel.bankkonti .vanlig .konto-navn a:hover {
+body .panel.bankkonti .vanlig .konto-navn a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
 
-body.dark-mode .panel .panel-body > fk-fileupload {
+body .panel .panel-body > fk-fileupload {
 	background-color: transparent!important;
 }
 
-body.dark-mode .panel .panel-body table tbody tr.muted {
+body .panel .panel-body table tbody tr.muted {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 }
-body.dark-mode .panel .panel-body table tbody tr span.ki-status {
+body .panel .panel-body table tbody tr span.ki-status {
 	background-color: var(--darkmode-fiken-dark);
 }
-body.dark-mode .panel .dropzone {
+body .panel .dropzone {
 	background-color: var(--darkmode-fiken-dark);
 }
 
 /* Frister */
-body.dark-mode .panel.panel-frister .ng-scope {
+body .panel.panel-frister .ng-scope {
 	background-color: transparent;
 }
 
 /* Well */
-body.dark-mode .well {
+body .well {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode .well label {
+body .well label {
 	color: #ffffff;
 }
-body.dark-mode .well small {
+body .well small {
 	color: #ffffff;
 }
-body.dark-mode .panel-title {
+body .panel-title {
 	color: #ffffff;
 }
 
 /* Tables */
-body.dark-mode .table .aktiv h4 {
+body .table .aktiv h4 {
 	color: #ffffff;
 }
-body.dark-mode .table tr.aktiv {
+body .table tr.aktiv {
 	background-color: var(--darkmode-fiken-dark);
 }
-body.dark-mode .table .aktiv .well,body.dark-mode .table .aktiv .innboks-forslag-options a {
+body .table .aktiv .well,body .table .aktiv .innboks-forslag-options a {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode .table .aktiv .innboks-forslag-options a .ng-scope {
+body .table .aktiv .innboks-forslag-options a .ng-scope {
 	color: rgba(255,255,255,0.5)
 }
-body.dark-mode .table .aktiv .innboks-forslag-options a.active::after {
+body .table .aktiv .innboks-forslag-options a.active::after {
 	width: 4px;
 }
-body.dark-mode table .badge {
+body table .badge {
 	background-color: var(--darkmode-fiken-dark);
 }
-body.dark-mode table .table-striped tr {
+body table .table-striped tr {
 	background-color: var(--darkmode-fiken-dark);
 }
-body.dark-mode .table .aktiv .innboks-forslag-options a {
+body .table .aktiv .innboks-forslag-options a {
 	border-color: var(--darkmode-fiken-dark);
 }
-body.dark-mode .table .aktiv .ng-binding {
+body .table .aktiv .ng-binding {
 	color: #ffffff;
 	text-decoration: underline;
 }
-body.dark-mode .table .aktiv .ng-binding:hover {
+body .table .aktiv .ng-binding:hover {
 	color: rgba(255,255,255,0.8);
 }
-body.dark-mode .table .aktiv .ki-status {
+body .table .aktiv .ki-status {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode .table .aktiv .har-innboks-forslag::after {
+body .table .aktiv .har-innboks-forslag::after {
 	color: rgba(255,255,255,0.6);
 }
 
-body.dark-mode .table .aktivert.muted {
+body .table .aktivert.muted {
 	color: #ffffff;
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode .table .table {
+body .table .table {
 	color: #ffffff;
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
 
 /* BS Callout */
-body.dark-mode .bs-callout {
+body .bs-callout {
 	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
 }
 
-body.dark-mode .bs-callout h4 {
+body .bs-callout h4 {
 	color: #ffffff;
 }
-body.dark-mode .bs-callout code {
+body .bs-callout code {
 	background-color: var(--darkmode-fiken-dark);
 	color: #ffffff;
 	padding: 0.5rem;
 }
-body.dark-mode .bs-callout a {
+body .bs-callout a {
 	color: #ffffff;
 	text-decoration: underline;
 }
 
 /* Modal */
-body.dark-mode .modal-dialog .modal-content {
+body .modal-dialog .modal-content {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 	color: #ffffff;
 }
-body.dark-mode .modal-dialog .modal-content .salespitch table caption{
+body .modal-dialog .modal-content .salespitch table caption{
 	color: #ffffff80;
 }
-body.dark-mode .modal-dialog .modal-content .salespitch table thead tr th {
+body .modal-dialog .modal-content .salespitch table thead tr th {
 	color: #ffffff;
 }
-body.dark-mode .modal-dialog .modal-content .salespitch table tbody tr td:nth-child(1) {
+body .modal-dialog .modal-content .salespitch table tbody tr td:nth-child(1) {
 	color: #ffffff;
 }
 
-body.dark-mode .modal-dialog .modal-content .panel-body,body.dark-mode .modal-dialog .modal-content .panel-body .list-group-item {
+body .modal-dialog .modal-content .panel-body,body .modal-dialog .modal-content .panel-body .list-group-item {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 	color: #ffffff;
 }
 
-body.dark-mode .modal-dialog .modal-content .bg-default-light, body.dark-mode .modal-dialog .modal-content .well,body.dark-mode .modal-dialog .modal-content .vis-bilag .list-group-item
-,body.dark-mode .modal-dialog .modal-content .media, body.dark-mode .modal-dialog .modal-content .media > div, body.dark-mode .modal-dialog .modal-content .list-group-item, body.dark-mode .modal-dialog .modal-content .bg-default   {
+body .modal-dialog .modal-content .bg-default-light, body .modal-dialog .modal-content .well,body .modal-dialog .modal-content .vis-bilag .list-group-item
+,body .modal-dialog .modal-content .media, body .modal-dialog .modal-content .media > div, body .modal-dialog .modal-content .list-group-item, body .modal-dialog .modal-content .bg-default   {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode .modal-dialog .modal-content .media a {
+body .modal-dialog .modal-content .media a {
 	background-color: rgba(255,255,255,0);
 }
-body.dark-mode .modal-dialog .modal-content .list-group-item {
+body .modal-dialog .modal-content .list-group-item {
 	border-color: var(--darkmode-fiken-dark);
 }
 
-body.dark-mode .modal-dialog .modal-content button, body.dark-mode .modal-dialog .modal-content a {
+body .modal-dialog .modal-content button, body .modal-dialog .modal-content a {
 	color: #ffffff;
 	text-decoration: underline;
 	background: var(--darkmode-fiken-dark-lighter-light);
 }
 
-body.dark-mode .modal-dialog .modal-content button.styled-combobox-toggle {
+body .modal-dialog .modal-content button.styled-combobox-toggle {
 	background: var(--darkmode-fiken-dark-lighter-light);
 	border-color: var(--darkmode-fiken-dark);
 }
 
-body.dark-mode .modal-dialog .modal-content button:hover, body.dark-mode .modal-dialog .modal-content a:hover {
+body .modal-dialog .modal-content button:hover, body .modal-dialog .modal-content a:hover {
 	color: rgba(255,255,255,0.8);
 	text-decoration: underline;
 }
 
-body.dark-mode .modal-dialog .modal-content .modal-header {
+body .modal-dialog .modal-content .modal-header {
 	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
 }
-body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-heading {
+body .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-heading {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options {
+body .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options {
 	background-color: var(--darkmode-fiken-dark);
 	color: #ffffff;
 }
-body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options .overskrift-list-group-sm > strong{
+body .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options .overskrift-list-group-sm > strong{
 	color: #ffffff;
 }
-body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options .list-group-item{
+body .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .fiken-dropdown-options .list-group-item{
 	color: #ffffff80;
 }
-body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-content .input-group input{
+body .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-content .input-group input{
 	background-color: var(--darkmode-fiken-dark);
 	color: #ffffff;
 }
-body.dark-mode .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-footer{
+body .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-panel .styled-combobox-footer{
 	background-color: var(--darkmode-fiken-dark);
 }
 
 
 
 
-body.dark-mode .btn-success {
+body .btn-success {
 	background-color: #009975!important;
 	color: #ffffff;
 }
-body.dark-mode .btn-danger {
+body .btn-danger {
 	background-color: #cc004b!important;
 	color: #ffffff;
 }
 
-body.dark-mode .modal-content .modal-body {
+body .modal-content .modal-body {
 	background-color: var(--darkmode-fiken-dark);
 }
 
 /* Hoved CTA */
-body.dark-mode a.btn.kjopt-noe {
+body a.btn.kjopt-noe {
 	background-color: transparent;
 	border-color: #ffffff;
 	color: #ffffff;
 }
-body.dark-mode a.btn.kjopt-noe:hover {
+body a.btn.kjopt-noe:hover {
 	color: #ffffff;
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
 
 /* Hovedbokvelger */
-body.dark-mode fk-hovedbokvelger-select .btn-group.btn-group-input > .btn {
+body fk-hovedbokvelger-select .btn-group.btn-group-input > .btn {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode fk-hovedbokvelger-select .btn-group.btn-group-input > .btn:hover {
+body fk-hovedbokvelger-select .btn-group.btn-group-input > .btn:hover {
 	background-color: var(--darkmode-fiken-dark);
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);/* rgba(0, 0, 0, 0.1) 0px 5px 15px 0px */
 }
-body.dark-mode fk-hovedbokvelger-select .btn-group.btn-group-input > .btn.active {
+body fk-hovedbokvelger-select .btn-group.btn-group-input > .btn.active {
 	background-color: var(--darkmode-fiken-dark);
 	color: #ffffff;
 }
-body.dark-mode fk-hovedbokvelger-select .styled-select {
+body fk-hovedbokvelger-select .styled-select {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode fk-hovedbokvelger-select .styled-select select {
+body fk-hovedbokvelger-select .styled-select select {
 	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
 }
-body.dark-mode fk-hovedbokvelger-select .styled-select:after {
+body fk-hovedbokvelger-select .styled-select:after {
 	border-color: #ffffff;
 }
 
 /* Searchbox */
-body.dark-mode .spotlight-wrapper input {
+body .spotlight-wrapper input {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 	color: #ffffff;
 }
-body.dark-mode .spotlight-wrapper .input-group-btn button {
+body .spotlight-wrapper .input-group-btn button {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
 
-body.dark-mode .spotlight-wrapper .input-group-btn button svg {
+body .spotlight-wrapper .input-group-btn button svg {
 	stroke: #ffffff;
 }
 
 /* Paginations */
-body.dark-mode ul.pagination li a{
+body ul.pagination li a{
 	color: #ffffff;
 }
 
 /* Nøkkeltall */
-body.dark-mode fk-forside-nokkeltall .panel-body a {
+body fk-forside-nokkeltall .panel-body a {
 	color: #ffffff;
 }
-body.dark-mode fk-forside-nokkeltall .panel-body a:hover {
+body fk-forside-nokkeltall .panel-body a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
-body.dark-mode fk-forside-nokkeltall .panel-body .flexy-body {
+body fk-forside-nokkeltall .panel-body .flexy-body {
 	color: #ffffff80!important;
 	font-weight: 400;
 }
-body.dark-mode fk-forside-nokkeltall .panel-body .flexy-icon svg > path {
+body fk-forside-nokkeltall .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
 	stroke: #000000;
 }
 
 
 /* fk-forside-innboks */
-body.dark-mode fk-forside-innboks .panel .panel-body .flexy-icon svg > path {
+body fk-forside-innboks .panel .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
 	stroke: #000000;
 }
-body.dark-mode fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:hover,fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:focus, fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:active  {
+body fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:hover,fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:focus, fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:active  {
 	background-color: var(--darkmode-fiken-dark);
 	box-shadow: none;
 }
-body.dark-mode fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:hover svg > polyline,fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:focus svg > polyline, fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:active svg > polyline {
+body fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:hover svg > polyline,fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:focus svg > polyline, fk-forside-innboks .flexy-right .open > .btn-default.dropdown-toggle:active svg > polyline {
 	color: #ffffff;
 }
 /* Forside graf */
-body.dark-mode fk-forside-graf .panel-body a.key-number:hover {
+body fk-forside-graf .panel-body a.key-number:hover {
 	background-color: var(--darkmode-fiken-dark);
 	box-shadow: none;
 }
 
 /* Forside-hendelser */
-body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-icon {
+body fk-forside-hendelser .panel-body .flexy-row .flexy-icon {
 
 }
-body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-right {
+body fk-forside-hendelser .panel-body .flexy-row .flexy-right {
 	color: #ffffff80;
 }
-body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-subrow {
+body fk-forside-hendelser .panel-body .flexy-row .flexy-subrow {
 	color: #ffffff80;
 }
-body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a {
+body fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a {
 	color: #ffffff;
 }
-body.dark-mode fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a:hover {
+body fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
 
 /* Brukerstyrt */
-body.dark-mode fk-forside-brukerstyrt .panel-body p {
+body fk-forside-brukerstyrt .panel-body p {
 	color: #ffffff80;
 }
-body.dark-mode fk-forside-brukerstyrt .panel-body ul li a {
+body fk-forside-brukerstyrt .panel-body ul li a {
 	color: #ffffff;
 }
-body.dark-mode fk-forside-brukerstyrt .panel-body ul li a:hover {
+body fk-forside-brukerstyrt .panel-body ul li a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
 
 /* Bankkontoer */
-body.dark-mode fk-forside-bankkonto .panel-body div.flexy-body {
+body fk-forside-bankkonto .panel-body div.flexy-body {
 	color: #ffffff80!important;
 }
 /* Form */
-body.dark-mode .form-horizontal p {
+body .form-horizontal p {
 	color: #ffffff;
 }
-body.dark-mode .form-horizontal a {
+body .form-horizontal a {
 	color: #ffffff;
 	text-decoration: underline;
 }
-body.dark-mode .form-horizontal label {
+body .form-horizontal label {
 	color: #ffffff;
 }
 /* Fiken logo */
-body.dark-mode .navbar-brand svg .fk-meny-logo-topp {
+body .navbar-brand svg .fk-meny-logo-topp {
 	fill: #EEEEEE;
 }
 
-body.dark-mode .navbar-brand svg .fk-meny-logo-bunn {
+body .navbar-brand svg .fk-meny-logo-bunn {
 	fill: #757575;
 }
 
 /* Modal Kontovelger */
-body.dark-mode fk-kontovelger .styled-combobox-content {
+body fk-kontovelger .styled-combobox-content {
 	background-color: var(--darkmode-fiken-dark);
 	color: #ffffff80;
 }
-body.dark-mode fk-kontovelger .styled-combobox-content .styled-combobox-heading{
+body fk-kontovelger .styled-combobox-content .styled-combobox-heading{
 	background-color: var(--darkmode-fiken-dark);
 }
-body.dark-mode fk-kontovelger .styled-combobox-content .styled-combobox-heading .input-group input{
+body fk-kontovelger .styled-combobox-content .styled-combobox-heading .input-group input{
 	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
 }
-body.dark-mode fk-kontovelger .styled-combobox-content .fiken-dropdown-options  .overskrift-list-group-sm > strong  {
+body fk-kontovelger .styled-combobox-content .fiken-dropdown-options  .overskrift-list-group-sm > strong  {
 	color: #ffffff;
 }
-body.dark-mode fk-kontovelger .styled-combobox-content .fiken-dropdown-options .list-group-item > span  {
+body fk-kontovelger .styled-combobox-content .fiken-dropdown-options .list-group-item > span  {
 	color: #ffffff80;
 }
-body.dark-mode fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height p, body.dark-mode fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height li
-, body.dark-mode fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height .fk-avkuttet-linje{
+body fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height p, body fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height li
+, body fk-kontovelger .styled-combobox-content .pg-styled-combobox-dropdown-panel-height .fk-avkuttet-linje{
 	color: black!important;
 }
 
 /* Button */
-body.dark-mode button, body.dark-mode a.btn-default {
+body button, body a.btn-default {
 	background-color: var(--darkmode-fiken-dark);
 	color: #ffffff;
 	transition: all .2s ease-in-out;
 }
-body.dark-mode button:hover, body.dark-mode a.btn-default:hover {
+body button:hover, body a.btn-default:hover {
 	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
 	background-color: var(--darkmode-fiken-dark-lighter);
 	color: #ffffff;
 }
 
 /* Startscreen */
-body.dark-mode .forside-header {
+body .forside-header {
 	background-color: var(--darkmode-fiken-dark);
 	border-color: #000000;
 }
-body.dark-mode .forside-header nav#navbar a.btn {
+body .forside-header nav#navbar a.btn {
 	background-color: transparent;
     color: rgb(255, 255, 255);
 	border-color: rgb(255, 255, 255);
 }
 
-body.dark-mode .forside-header nav#navbar a.btn:hover {
+body .forside-header nav#navbar a.btn:hover {
 	color: rgb(255, 255, 255);
 	background-color: rgb(55, 60, 63);
 }
-body.dark-mode#home-page {
+body#home-page {
 	background-color: var(--darkmode-fiken-dark);
 }
 
-body.dark-mode .hero-section h1.hero-title {
+body .hero-section h1.hero-title {
 	color: #ffffff;
 }
-body.dark-mode .hero-section p.hero-description {
+body .hero-section p.hero-description {
 	color: #ffffff80;
 }
-body.dark-mode h2.heading-two {
+body h2.heading-two {
 	color: #ffffff;
 }
-body.dark-mode p.description {
+body p.description {
 	color: #ffffff80;
 }
 
-body.dark-mode .support-review {
+body .support-review {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
 
-body.dark-mode .support-review .review .review-item {
+body .support-review .review .review-item {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 }
-body.dark-mode .support-review .review .review-item p{
+body .support-review .review .review-item p{
 	color: #ffffff;
 }
-body.dark-mode .support-review .review .review-item p.review-author {
+body .support-review .review .review-item p.review-author {
 	color: #ffffff80;
 }
-body.dark-mode .support-review .carousel-ctrl button {
+body .support-review .carousel-ctrl button {
 	background-color: transparent;
 }
-body.dark-mode .support-review .carousel-ctrl button:hover {
+body .support-review .carousel-ctrl button:hover {
 	background-color: transparent;
 	box-shadow: none;
 }
-body.dark-mode .support-review .carousel-ctrl button circle {
+body .support-review .carousel-ctrl button circle {
 	color: var(--darkmode-fiken-dark-lighter-light);
 }
-body.dark-mode .support-review .carousel-ctrl button:hover circle {
+body .support-review .carousel-ctrl button:hover circle {
 	color: var(--darkmode-fiken-dark);
 }
-body.dark-mode .support-review .carousel-ctrl button polyline {
+body .support-review .carousel-ctrl button polyline {
 	stroke: #ffffff;
 }
 
-body.dark-mode .forside-header nav#navbar a svg g#fiken-logo path:nth-child(1) {
+body .forside-header nav#navbar a svg g#fiken-logo path:nth-child(1) {
 	fill: #EEEEEE;
 }
 
-body.dark-mode .forside-header nav#navbar a svg g#fiken-logo path:nth-child(2){
+body .forside-header nav#navbar a svg g#fiken-logo path:nth-child(2){
 	fill: #757575;
 }
 
 
 /* Forside Features */
-body.dark-mode .fiken-features {
+body .fiken-features {
 	background-color: var(--darkmode-fiken-dark);
 }
 
-body.dark-mode .fiken-features .features-group .feature h3 {
+body .fiken-features .features-group .feature h3 {
 	color: #ffffff;
 }
-body.dark-mode .fiken-features .features-group .feature p {
+body .fiken-features .features-group .feature p {
 	color: #ffffff80;
 }
-body.dark-mode .fiken-features a.btn {
+body .fiken-features a.btn {
 	background-color: transparent;
     color: rgb(255, 255, 255);
 	border-color: rgb(255, 255, 255);
 }
-body.dark-mode .fiken-features a.btn:hover {
+body .fiken-features a.btn:hover {
 	color: rgb(255, 255, 255);
     background-color: rgb(55, 60, 63);
 }
 
 /* Import fra nettbank */
-body.dark-mode table tbody tr td ul.dropdown-menu {
+body table tbody tr td ul.dropdown-menu {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
-body.dark-mode table tbody tr td ul.dropdown-menu li a {
+body table tbody tr td ul.dropdown-menu li a {
 	color: #ffffff
 }
-body.dark-mode table tbody tr td ul.dropdown-menu li a:hover {
+body table tbody tr td ul.dropdown-menu li a:hover {
 	background-color: var(--darkmode-fiken-dark);
 }
 
 
 
 /* Logg inn*/
-body.dark-mode header {
+body header {
 	background-color: var(--darkmode-fiken-dark);
 	border-color: #000000;
 }
-body.dark-mode header nav#navbar a.btn {
+body header nav#navbar a.btn {
 	background-color: transparent;
     color: rgb(255, 255, 255);
 	border-color: rgb(255, 255, 255);
 }
 
-body.dark-mode header nav#navbar a.btn:hover {
+body header nav#navbar a.btn:hover {
 	color: rgb(255, 255, 255);
 	background-color: rgb(55, 60, 63);
 }
 
-body.dark-mode header nav#navbar a svg g#fiken-logo path:nth-child(1) {
+body header nav#navbar a svg g#fiken-logo path:nth-child(1) {
 	fill: #EEEEEE;
 }
 
-body.dark-mode header nav#navbar a svg g#fiken-logo path:nth-child(2){
+body header nav#navbar a svg g#fiken-logo path:nth-child(2){
 	fill: #757575;
 }
 
-body.dark-mode#log-in-page {
+body#log-in-page {
 	background-color: var(--darkmode-fiken-dark);
 }
 
-body.dark-mode#log-in-page h1 {
+body#log-in-page h1 {
 	color: #ffffff;
 }
-body.dark-mode#log-in-page #loginform label, body.dark-mode#log-in-page #loginform label span  {
+body#log-in-page #loginform label, body#log-in-page #loginform label span  {
 	color: #ffffff80;
 }
-body.dark-mode#log-in-page #loginform button.btn {
+body#log-in-page #loginform button.btn {
 	background-color: transparent;
     color: rgb(255, 255, 255);
 	border: 1px solid rgb(255, 255, 255);
 }
 
-body.dark-mode#log-in-page #loginform button.btn:hover {
+body#log-in-page #loginform button.btn:hover {
 	color: rgb(255, 255, 255);
 	background-color: rgb(55, 60, 63);
 }
 
-body.dark-mode#log-in-page .google-btn-section p {
+body#log-in-page .google-btn-section p {
 	color: #ffffff;
 }
-body.dark-mode#log-in-page .google-btn-section a#googleLogin .google-button-text {
+body#log-in-page .google-btn-section a#googleLogin .google-button-text {
 	color: var(--darkmode-fiken-dark);
 }
 
 /* Mine foretak */
-body.dark-mode .panel .panel-body .list-group-item span, body.dark-mode .panel .panel-body .list-group-item div, body.dark-mode .panel .panel-body .list-group-item a  {
+body .panel .panel-body .list-group-item span, body .panel .panel-body .list-group-item div, body .panel .panel-body .list-group-item a  {
 	color: #ffffff;
 }
-body.dark-mode .panel .panel-body .list-group-item fk-icon svg polyline {
+body .panel .panel-body .list-group-item fk-icon svg polyline {
 	stroke: #000000;
 }
-body.dark-mode .panel .panel-body .list-group-header {
+body .panel .panel-body .list-group-header {
 	background-color: var(--darkmode-fiken-dark);
 }
-body.dark-mode .panel .panel-body .list-group-item {
+body .panel .panel-body .list-group-item {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
 }
-body.dark-mode .panel .panel-body .list-group {
+body .panel .panel-body .list-group {
 	border-radius: 8px;
 	overflow: hidden;
 }
-body.dark-mode .panel .panel-body .list-group-header a, body.dark-mode .panel .panel-body .list-group-header div, body.dark-mode .panel .panel-body .list-group-header span {
+body .panel .panel-body .list-group-header a, body .panel .panel-body .list-group-header div, body .panel .panel-body .list-group-header span {
 	color: #ffffff;
 }
-body.dark-mode .panel .panel-body .list-group-header fk-icon svg polyline {
+body .panel .panel-body .list-group-header fk-icon svg polyline {
 	stroke: #ffffff; 
 }
