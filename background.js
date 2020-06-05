@@ -1,9 +1,11 @@
-chrome.tabs.onUpdated.addListener(() => {
-	chrome.storage.local.get({'darkmodeForFiken': true}, (localstorage) => {
-		if(localstorage.darkmodeForFiken == true) {
-			setDarkMode()
-		}
-	})	
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+	if(changeInfo.status === 'loading') {
+		chrome.storage.local.get({'darkmodeForFiken': true}, (localstorage) => {
+			if(localstorage.darkmodeForFiken == true) {
+				setDarkMode()
+			}
+		})	
+	}
 })
 
 
