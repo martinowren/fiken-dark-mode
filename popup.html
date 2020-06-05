@@ -9,12 +9,38 @@
 			}
 			body {
 				min-width: 250px;
-				min-height: 400px;
+				display: flex;
+				flex-direction: column;
+				padding: 0 0 4rem 0;
 			}
+			h1, h2, h3 {
+				text-align: center;
+			}
+			h3 {
+				margin: 0;
+			}
+			#status.activated {
+				color: rgb(76, 175, 80);
+			}
+			#status {
+				color: rgb(244, 67, 54);
+			}
+			button {
+				background-color: #4B33DD;
+				color: #ffffff;
+				border: none;
+				border-radius: 8px;
+				width: fit-content;
+				margin: 0 auto;
+			}
+
 		</style>
 
 	</head>
 	<body>
+		<h1>Fiken darkmode</h1>
+		<h3>Status</h3>
+		<h2 id="status">Undefined</h2>
 		<button class="toggleButton">Toggle darkmode</button>
 	</body>
 	<script src="popup.js"></script>
