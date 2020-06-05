@@ -1160,3 +1160,7 @@ body div.styled-combobox-dropdown.fk-select-panel {
 	position: relative;
 	z-index: 2;
 }
+
+body .inbox-zero .panel-heading {
+	background-color: transparent !important;
+}
