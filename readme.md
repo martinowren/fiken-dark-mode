@@ -1,4 +1,5 @@
 # Fiken darkmode
+
 Dette er en veldig enkel chrome extension som gjør at du kan få Darkmode i fiken
 
 Dette er et prosjekt som ble gjort pga mangel av oppdrag i Korona-tiden.
