@@ -176,6 +176,11 @@ body .panel-title {
 	color: #ffffff;
 }
 
+body .panel .panel-heading,
+body .panel-info .panel-heading {
+	background-color: var(--darkmode-fiken-dark-lighter) !important;
+}
+
 /* Tables */
 body table.table thead tr.active > td {
 	background-color: var(--darkmode-fiken-dark);
@@ -459,14 +464,20 @@ body ul.pagination li a {
 /* Inputfields */
 
 body input[type='text'],
-body input[type='email'] {
+body input[type='email'],
+body textarea,
+body textarea.form-control {
 	background-color: var(--darkmode-fiken-dark-dark);
 	color: #ffffff80;
 }
 body input[type='text']:active,
 body input[type='text']:focus,
 body input[type='email']:active,
-body input[type='email']:focus {
+body input[type='email']:focus,
+body textarea,
+body textarea.form-control,
+body input.form-control[disabled],
+body select {
 	background-color: var(--darkmode-fiken-dark-dark);
 	color: #ffffff;
 }
@@ -528,7 +539,10 @@ body fk-forside-nokkeltall .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
 	stroke: #000000;
 }
-
+body .panel-body .alert.alert-warning {
+	color: #ffffff;
+	background-color: #ef535080;
+}
 /* fk-forside-innboks */
 body fk-forside-innboks .panel .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
