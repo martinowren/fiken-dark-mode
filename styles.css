@@ -2,6 +2,7 @@
 
 :root {
 	--darkmode-fiken-dark: rgb(47, 52, 55);
+	--darkmode-fiken-dark-dark: rgb(37, 41, 43);
 	--darkmode-fiken-dark-lighter: rgb(55, 60, 63);
 	--darkmode-fiken-dark-lighter-light: rgb(62, 68, 72);
 }
@@ -175,6 +176,11 @@ body .panel-title {
 	color: #ffffff;
 }
 
+body .panel .panel-heading,
+body .panel-info .panel-heading {
+	background-color: var(--darkmode-fiken-dark-lighter) !important;
+}
+
 /* Tables */
 body table.table thead tr.active > td {
 	background-color: var(--darkmode-fiken-dark);
@@ -207,8 +213,11 @@ body .table .aktiv .innboks-forslag-options a.active::after {
 body table .badge {
 	background-color: var(--darkmode-fiken-dark);
 }
-body table .table-striped tr {
-	background-color: var(--darkmode-fiken-dark);
+body table .table-striped tbody tr:nth-of-type(odd) {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+}
+body table .table-striped tbody tr {
+	background-color: var(--darkmode-fiken-dark-lighter);
 }
 body .table .aktiv .innboks-forslag-options a {
 	border-color: var(--darkmode-fiken-dark);
@@ -216,6 +225,9 @@ body .table .aktiv .innboks-forslag-options a {
 body .table .aktiv .ng-binding {
 	color: #ffffff;
 	text-decoration: underline;
+}
+body .table .aktiv .ng-binding strong.text-info {
+	color: #66bb6a80;
 }
 body .table .aktiv .ng-binding:hover {
 	color: rgba(255, 255, 255, 0.8);
@@ -299,9 +311,83 @@ body .modal-dialog .modal-content a {
 	background: var(--darkmode-fiken-dark-lighter-light);
 }
 
-body .modal-dialog .modal-content button.styled-combobox-toggle {
+body .modal-dialog .modal-content button.styled-combobox-toggle,
+body .modal-dialog .modal-content .fk-addon-group {
 	background: var(--darkmode-fiken-dark-lighter-light);
-	border-color: var(--darkmode-fiken-dark);
+	border-color: #ffffff80;
+}
+
+body .modal-dialog .modal-content .fk-addon-group fk-icon {
+	color: #ffffff;
+}
+body .modal-dialog .modal-content button.styled-combobox-toggle span {
+	color: #ffffff80;
+}
+
+body
+	.modal-dialog
+	.modal-content
+	.fk-select-panel.styled-combobox-dropdown
+	.styled-combobox-content {
+	background-color: var(--darkmode-fiken-dark-lighter);
+	color: #ffffff;
+}
+body
+	.modal-dialog
+	.modal-content
+	.fk-select-panel.styled-combobox-dropdown
+	.styled-combobox-body
+	.overskrift-list-group-sm
+	strong,
+body
+	.modal-dialog
+	.modal-content
+	.fk-select-panel.styled-combobox-dropdown
+	.styled-combobox-body
+	.overskrift-list-group-sm,
+body
+	.modal-dialog
+	.modal-content
+	.fk-select-panel.styled-combobox-dropdown
+	.styled-combobox-body
+	.overskrift-list-group-sm {
+	color: #ffffff !important;
+}
+body
+	.modal-dialog
+	.modal-content
+	.fk-select-panel.styled-combobox-dropdown
+	.styled-combobox-content
+	.styled-combobox-heading
+	input {
+	background-color: var(--darkmode-fiken-dark-dark);
+	color: #ffffff80;
+}
+body
+	.modal-dialog
+	.modal-content
+	.fk-select-panel.styled-combobox-dropdown
+	.styled-combobox-content
+	.styled-combobox-heading {
+	background-color: var(--darkmode-fiken-dark);
+}
+body
+	.modal-dialog
+	.modal-content
+	.fk-select-panel.styled-combobox-dropdown
+	.styled-combobox-content
+	.styled-combobox-footer {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+body .modal-dialog .modal-content button.styled-combobox-toggle:hover,
+body .modal-dialog .modal-content button.styled-combobox-toggle:focus {
+	color: #ffffff;
+	background: var(--darkmode-fiken-dark-lighter);
+}
+body .modal-dialog .modal-content button.styled-combobox-toggle:hover span,
+body .modal-dialog .modal-content button.styled-combobox-toggle:focus span {
+	color: #ffffff;
 }
 
 body .modal-dialog .modal-content button:hover,
@@ -455,6 +541,76 @@ body ul.pagination li a {
 	color: #ffffff;
 }
 
+/* Inputfields */
+
+body input[type='text'],
+body input[type='email'],
+body textarea,
+body textarea.form-control,
+body .styled-select > select {
+	background-color: var(--darkmode-fiken-dark-dark);
+	color: #ffffff80;
+}
+body .styled-select > select > * {
+	color: #ffffff;
+}
+body input[type='text']:active,
+body input[type='text']:focus,
+body input[type='email']:active,
+body input[type='email']:focus,
+body textarea,
+body textarea.form-control,
+body input.form-control[disabled],
+body select {
+	background-color: var(--darkmode-fiken-dark-dark);
+	color: #ffffff;
+}
+
+body button.styled-combobox-toggle {
+	color: #ffffff80;
+}
+
+/* Datepicker */
+body .fiken-datepicker {
+	background-color: var(--darkmode-fiken-dark-lighter);
+	color: #ffffff80;
+}
+
+body .fiken-datepicker tbody tr > td.today:before {
+	border-color: var(--darkmode-fiken-dark-dark) !important;
+}
+body .fiken-datepicker tbody tr > td.today {
+	color: #ffffff;
+}
+body .fiken-datepicker tbody tr > td.today:hover {
+	color: #ffffff !important;
+}
+body .fiken-datepicker tbody tr > td.day:hover {
+	background-color: var(--darkmode-fiken-dark) !important;
+	color: #ffffff;
+}
+body .fiken-datepicker tbody tr > td.day.active {
+	background-color: var(--darkmode-fiken-dark) !important;
+	color: #ffffff;
+}
+body .fiken-datepicker tbody tr > td.day.active:hover {
+	background-color: var(--darkmode-fiken-dark-dark) !important;
+	color: #ffffff;
+}
+body .fiken-datepicker thead > tr th.datepicker-switch {
+	color: #ffffff;
+}
+body .fiken-datepicker thead > tr th.datepicker-switch:hover,
+body .fiken-datepicker thead > tr th.prev:hover,
+body .fiken-datepicker thead > tr th.next:hover {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+	color: #ffffff;
+}
+body .fiken-datepicker thead > tr th.prev:before,
+body .fiken-datepicker thead > tr th.next:before {
+	border-color: #ffffff;
+}
+
 /* Nøkkeltall */
 body fk-forside-nokkeltall .panel-body a {
 	color: #ffffff;
@@ -471,7 +627,19 @@ body fk-forside-nokkeltall .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
 	stroke: #000000;
 }
-
+body .panel-body .alert.alert-warning {
+	color: #ffffff;
+	background-color: #ef535080;
+}
+body .alert.alert-warning {
+	color: #ffffff;
+	background-color: #ef535080;
+}
+body .alert.alert-warning a {
+	color: #ffffff;
+	background-color: transparent;
+	text-decoration: underline;
+}
 /* fk-forside-innboks */
 body fk-forside-innboks .panel .panel-body .flexy-icon svg > path {
 	fill: #ffffff;
@@ -543,6 +711,31 @@ body fk-forside-brukerstyrt .panel-body ul li a:hover {
 body fk-forside-bankkonto .panel-body div.flexy-body {
 	color: #ffffff80 !important;
 }
+
+/* Bankutskrift */
+body
+	.panel
+	.panel-body
+	table
+	tr
+	.innboks-forslag
+	.list-group-innboks-forslag
+	.dokument {
+	background-color: var(--darkmode-fiken-dark-lighter);
+	border-color: var(--darkmode-fiken-dark);
+}
+
+body
+	.panel
+	.panel-body
+	table
+	tr
+	.innboks-forslag
+	.list-group-innboks-forslag
+	.dokument
+	span.bg-success.text-success {
+	background-color: #66bb6a80;
+}
 /* Form */
 body .form-horizontal p {
 	color: #ffffff;
@@ -578,6 +771,9 @@ body
 	.input-group
 	input {
 	background-color: var(--darkmode-fiken-dark-lighter);
+	color: #ffffff;
+}
+body .modal-dialog .modal-body fk-kontovelger .fk-avkuttet-linje button span {
 	color: #ffffff;
 }
 body
@@ -868,4 +1064,103 @@ body
 }
 body fk-oppfolging-robot-lop .timeline-vertical {
 	--timeline-color: var(--darkmode-fiken-dark-lighter-light) !important;
+}
+
+/* Frister */
+body .popover {
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+body .popover strong {
+	color: #ffffff;
+}
+
+/* Frister fk-frist-corona-advarsel */
+body fk-frist-corona-advarsel .bg-warning {
+	background-color: var(--darkmode-fiken-dark);
+}
+body fk-frist-corona-advarsel .bg-warning p {
+	color: #ffffff;
+}
+
+/* Årsregnskap */
+body ol.nav-pills li a {
+	color: #ffffff80;
+}
+body ol.nav-pills li:hover a {
+	color: #ffffff80;
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+body ol.nav-pills li.active a {
+	color: #ffffff;
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+}
+body ol.nav-pills li.active:hover a {
+	color: #ffffff;
+	background-color: var(--darkmode-fiken-dark-lighter);
+}
+.alert-info {
+	background-color: #66bb6a80 !important;
+}
+.alert-info > h4 {
+	color: #ffffff !important;
+}
+.alert-info > div {
+	color: #ffffff80 !important;
+}
+
+/* File Upload */
+body fk-fileupload .dropzone {
+	background-color: var(--darkmode-fiken-dark);
+}
+
+/* Kontaktvelger */
+body div.styled-combobox-dropdown.fk-select-panel .styled-combobox-content,
+body div.styled-combobox-dropdown.fk-select-panel .styled-combobox-footer,
+body
+	div.styled-combobox-dropdown.fk-select-panel
+	.styled-combobox-content
+	.styled-combobox-heading,
+body fk-kontaktvelger .styled-combobox-content,
+body fk-kontaktvelger .styled-combobox-footer,
+body fk-kontaktvelger .styled-combobox-content .styled-combobox-heading {
+	color: #ffffff80;
+	background-color: var(--darkmode-fiken-dark-lighter) !important;
+}
+
+body fk-kontaktvelger .styled-combobox-content .styled-combobox-heading input,
+body
+	div.styled-combobox-dropdown.fk-select-panel
+	.styled-combobox-content
+	.styled-combobox-heading
+	input {
+	background-color: var(--darkmode-fiken-dark-dark);
+	color: #ffffff80;
+}
+body fk-kontaktvelger .styled-combobox-body .overskrift-list-group-sm,
+body
+	div.styled-combobox-dropdown.fk-select-panel
+	.styled-combobox-body
+	.overskrift-list-group-sm {
+	color: #ffffff;
+}
+body fk-kontaktvelger .styled-combobox-body span.badge,
+body
+	div.styled-combobox-dropdown.fk-select-panel
+	.styled-combobox-body
+	span.badge {
+	background-color: #66bb6a80;
+}
+body .pg-kunde-faktura-info {
+	background-color: #ffee5880;
+	color: #ffffff;
+}
+
+body div.styled-combobox-dropdown.fk-select-panel {
+	position: relative;
+	z-index: 2;
+}
+
+body .inbox-zero .panel-heading {
+	background-color: transparent !important;
 }
