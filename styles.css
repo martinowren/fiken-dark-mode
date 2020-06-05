@@ -848,17 +848,24 @@ body .panel .panel-body .list-group-header fk-icon svg polyline {
 	stroke: #ffffff;
 }
 
+/* Foretaksinnstillinger - foretaksinnstillinger*/
+body ul.pagination li.active a {
+	color: #ffffff;
+}
+body ul.pagination li a {
+	color: #ffffff80;
+}
+
 /* Foretaksinnstillinger - fk-oppfolging-robot-lop */
-body .panel fk-oppfolging-robot-lop .timeline-zero::before {
-	background-color: var(--darkmode-fiken-dark-lighter);
+body fk-oppfolging-robot-lop .timeline-zero::before {
+	background-color: transparent !important;
 }
 body
-	.panel
 	fk-oppfolging-robot-lop
 	.timeline-vertical
 	.timeline-entry:last-child::after {
 	background-color: transparent;
 }
-body .panel fk-oppfolging-robot-lop .timeline-vertical {
+body fk-oppfolging-robot-lop .timeline-vertical {
 	--timeline-color: var(--darkmode-fiken-dark-lighter-light) !important;
 }
