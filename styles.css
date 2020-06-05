@@ -643,6 +643,18 @@ body table tbody tr.bg-danger td > div, body table tbody tr.bg-success td > div,
 }
 
 
+/* oversikt-salg */
+body #oversikt-salg ul.nav-tabs li a {
+	background-color: var(--darkmode-fiken-dark-lighter-light);
+	color: #ffffff80;
+}
+/* oversikt-salg */
+body #oversikt-salg ul.nav-tabs li.active a{
+	background-color: var(--darkmode-fiken-dark-lighter);
+	box-shadow: 0 5px 0px 0 var(--darkmode-fiken-dark-lighter), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	color: #ffffff;
+}
+
 /* Logg inn*/
 body header {
 	background-color: var(--darkmode-fiken-dark);
