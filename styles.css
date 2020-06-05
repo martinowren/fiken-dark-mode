@@ -146,6 +146,12 @@ body .panel.panel-frister .ng-scope {
 	background-color: transparent;
 }
 
+/* fk-bilagsliste */
+body fk-bilagsliste div.ng-scope > div {
+	background-color: var(--darkmode-fiken-dark);
+	border: none;
+}
+
 /* Well */
 body .well {
 	background-color: var(--darkmode-fiken-dark-lighter);
@@ -161,6 +167,17 @@ body .panel-title {
 }
 
 /* Tables */
+body table.table thead tr.active > td {
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff;
+}
+body table.table tfoot, body table.table tfoot tr > td {
+	background-color: var(--darkmode-fiken-dark)!important;
+	color: #ffffff;
+}
+body table.table thead tr.active > td b {
+	color: #ffffff;
+}
 body .table .aktiv h4 {
 	color: #ffffff;
 }
@@ -300,8 +317,18 @@ body .modal-dialog .modal-content .modal-body fk-bankkontovelger .fk-select-pane
 }
 
 
-
-
+/* Buttons */
+body button.btn, body a.btn {
+	background-color: transparent;
+	border-color: #ffffff;
+	color: #ffffff;
+	border-radius: 4px;
+}
+body button.btn:hover, body a.btn:hover {
+	background-color: var(--darkmode-fiken-dark);
+	border-color: #ffffff;
+	color: #ffffff;
+}
 body .btn-success {
 	background-color: #009975!important;
 	color: #ffffff;
@@ -585,6 +612,7 @@ body .fiken-features a.btn:hover {
 }
 
 /* Import fra nettbank */
+
 body table tbody tr td ul.dropdown-menu {
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
@@ -594,7 +622,25 @@ body table tbody tr td ul.dropdown-menu li a {
 body table tbody tr td ul.dropdown-menu li a:hover {
 	background-color: var(--darkmode-fiken-dark);
 }
-
+body table tbody tr td.belop > span {
+	font-weight: bold;
+}
+body table tbody tr.bg-danger {
+	color: #ffffff;
+	background-color: #ef535080;
+}
+body table tbody tr.bg-success {
+	color: #ffffff;
+	background-color: #66BB6A80;
+}
+body table tbody tr.bg-warning {
+	color: #ffffff;
+	background-color: #FFEE5880;
+}
+body table tbody tr.bg-danger td > span, body table tbody tr.bg-success td > span, body table tbody tr.bg-warning td > span,
+body table tbody tr.bg-danger td > div, body table tbody tr.bg-success td > div, body table tbody tr.bg-warning td > div {
+	color: #ffffff;
+}
 
 
 /* Logg inn*/
