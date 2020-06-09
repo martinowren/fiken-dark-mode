@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 
-	"name": "Fiken - Darkmode",
+	"name": "Darkmode for Fiken.no",
 	"version": "0.1.0",
 	"description": "Utvidelse som gjør Fiken.no darkmode",
 	"permissions": ["storage", "tabs", "activeTab", "https://fiken.no/*"],
