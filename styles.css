@@ -1214,3 +1214,9 @@ body fk-graf-resultatregnskap .chart .annotation span {
 	color: #ffffff;
 	text-shadow: none !important;
 }
+
+/* fk-graf-toppti */
+body fk-graf-toppti .tt-chart .panel .panel-body .activeGroup {
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff;
+}
