@@ -1207,3 +1207,10 @@ body .sluttbrukeravtale-wrapper a,
 body .sluttbrukeravtale-wrapper ul li {
 	color: #000000;
 }
+
+/* fk-graf-resultatregnskap */
+body fk-graf-resultatregnskap .chart .annotation,
+body fk-graf-resultatregnskap .chart .annotation span {
+	color: #ffffff;
+	text-shadow: none !important;
+}
