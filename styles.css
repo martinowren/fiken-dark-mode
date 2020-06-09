@@ -150,6 +150,11 @@ body .panel .panel-body table tbody tr span.ki-status {
 body .panel .dropzone {
 	background-color: var(--darkmode-fiken-dark);
 }
+body .panel .bg-default-light,
+body .panel .bg-default {
+	color: #ffffff;
+	background-color: var(--darkmode-fiken-dark-dark);
+}
 
 /* Frister */
 body .panel.panel-frister .ng-scope {
@@ -246,6 +251,13 @@ body .table .aktivert.muted {
 body .table .table {
 	color: #ffffff;
 	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+body .table tbody tr:hover {
+	background-color: var(--darkmode-fiken-dark-dark);
+}
+body .table tbody tr:hover * {
+	color: #ffffff;
 }
 
 /* BS Callout */
