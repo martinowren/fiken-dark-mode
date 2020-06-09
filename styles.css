@@ -1183,3 +1183,15 @@ body div.styled-combobox-dropdown.fk-select-panel {
 body .inbox-zero .panel-heading {
 	background-color: transparent !important;
 }
+
+/* Sluttbrukeravtale */
+body .sluttbrukeravtale-wrapper p,
+body .sluttbrukeravtale-wrapper h1,
+body .sluttbrukeravtale-wrapper h2,
+body .sluttbrukeravtale-wrapper h3,
+body .sluttbrukeravtale-wrapper h4,
+body .sluttbrukeravtale-wrapper h5,
+body .sluttbrukeravtale-wrapper a,
+body .sluttbrukeravtale-wrapper ul li {
+	color: #000000;
+}
