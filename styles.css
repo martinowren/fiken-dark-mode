@@ -469,12 +469,14 @@ body a.btn {
 	border-color: #ffffff;
 	color: #ffffff;
 	border-radius: 4px;
+	transition: 0.2s ease-in;
 }
 body button.btn:hover,
 body a.btn:hover {
 	background-color: var(--darkmode-fiken-dark);
 	border-color: #ffffff;
 	color: #ffffff;
+	transform: translateY(-1px);
 }
 body .btn-success {
 	background-color: #009975 !important;
@@ -483,6 +485,15 @@ body .btn-success {
 body .btn-danger {
 	background-color: #cc004b !important;
 	color: #ffffff;
+}
+
+body a.btn-primary {
+	background-color: #2d1a9f;
+	border-color: #2d1a9f;
+}
+body a.btn-primary:hover {
+	background-color: #2d1a9f80;
+	border-color: #2d1a9f80;
 }
 
 body .modal-content .modal-body {
@@ -498,6 +509,7 @@ body a.btn.kjopt-noe {
 body a.btn.kjopt-noe:hover {
 	color: #ffffff;
 	background-color: var(--darkmode-fiken-dark-lighter);
+	border-color: var(--darkmode-fiken-dark-lighter);
 }
 
 /* Hovedbokvelger */
@@ -545,6 +557,7 @@ body ul.pagination li a {
 
 body input[type='text'],
 body input[type='email'],
+body input[type='password'],
 body textarea,
 body textarea.form-control,
 body .styled-select > select {
@@ -1014,6 +1027,12 @@ body#log-in-page .google-btn-section p {
 }
 body#log-in-page .google-btn-section a#googleLogin .google-button-text {
 	color: var(--darkmode-fiken-dark);
+}
+body .btn.btn-google {
+	background-color: #ffffff;
+}
+body .btn.btn-google:hover {
+	background-color: #ffffff80;
 }
 
 /* Mine foretak */
