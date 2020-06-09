@@ -12,10 +12,10 @@ const toggleDarkMode = () => {
 const setColorOfStatus = (status) => {
 	if (status) {
 		statusComponent.classList.add('activated');
-		statusComponent.innerText = 'Activated';
+		statusComponent.innerText = 'Aktivert';
 	} else {
 		statusComponent.classList.remove('activated');
-		statusComponent.innerText = 'Deactivated';
+		statusComponent.innerText = 'Deaktivert';
 	}
 };
 
