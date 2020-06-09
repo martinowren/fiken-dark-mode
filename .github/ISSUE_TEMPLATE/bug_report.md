@@ -1,8 +1,8 @@
 ---
 name: Mangler Darkmode
 about: Hjelp meg med å finne feil i darkmode
-title: 'Darkmode mangel'
-labels: 'bug'
+title: 'LEGG INN TITTEL'
+labels: 'dark-mode-mangel'
 assignees: 'martinowren'
 
 ---
