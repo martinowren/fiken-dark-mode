@@ -150,6 +150,11 @@ body .panel .panel-body table tbody tr span.ki-status {
 body .panel .dropzone {
 	background-color: var(--darkmode-fiken-dark);
 }
+body .panel .bg-default-light,
+body .panel .bg-default {
+	color: #ffffff;
+	background-color: var(--darkmode-fiken-dark-dark);
+}
 
 /* Frister */
 body .panel.panel-frister .ng-scope {
@@ -246,6 +251,13 @@ body .table .aktivert.muted {
 body .table .table {
 	color: #ffffff;
 	background-color: var(--darkmode-fiken-dark-lighter);
+}
+
+body .table tbody tr:hover {
+	background-color: var(--darkmode-fiken-dark-dark);
+}
+body .table tbody tr:hover * {
+	color: #ffffff;
 }
 
 /* BS Callout */
@@ -487,11 +499,13 @@ body .btn-danger {
 	color: #ffffff;
 }
 
-body a.btn-primary {
+body a.btn-primary,
+body a.hero-btn-register {
 	background-color: #2d1a9f;
 	border-color: #2d1a9f;
 }
-body a.btn-primary:hover {
+body a.btn-primary:hover,
+body a.hero-btn-register:hover {
 	background-color: #2d1a9f80;
 	border-color: #2d1a9f80;
 }
@@ -1182,4 +1196,29 @@ body div.styled-combobox-dropdown.fk-select-panel {
 
 body .inbox-zero .panel-heading {
 	background-color: transparent !important;
+}
+
+/* Sluttbrukeravtale */
+body .sluttbrukeravtale-wrapper p,
+body .sluttbrukeravtale-wrapper h1,
+body .sluttbrukeravtale-wrapper h2,
+body .sluttbrukeravtale-wrapper h3,
+body .sluttbrukeravtale-wrapper h4,
+body .sluttbrukeravtale-wrapper h5,
+body .sluttbrukeravtale-wrapper a,
+body .sluttbrukeravtale-wrapper ul li {
+	color: #000000;
+}
+
+/* fk-graf-resultatregnskap */
+body fk-graf-resultatregnskap .chart .annotation,
+body fk-graf-resultatregnskap .chart .annotation span {
+	color: #ffffff;
+	text-shadow: none !important;
+}
+
+/* fk-graf-toppti */
+body fk-graf-toppti .tt-chart .panel .panel-body .activeGroup {
+	background-color: var(--darkmode-fiken-dark);
+	color: #ffffff;
 }
