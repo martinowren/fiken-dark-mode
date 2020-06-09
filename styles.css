@@ -499,11 +499,13 @@ body .btn-danger {
 	color: #ffffff;
 }
 
-body a.btn-primary {
+body a.btn-primary,
+body a.hero-btn-register {
 	background-color: #2d1a9f;
 	border-color: #2d1a9f;
 }
-body a.btn-primary:hover {
+body a.btn-primary:hover,
+body a.hero-btn-register:hover {
 	background-color: #2d1a9f80;
 	border-color: #2d1a9f80;
 }
