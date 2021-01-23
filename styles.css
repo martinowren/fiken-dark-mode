@@ -16,7 +16,7 @@ p,
 h4,
 h5,
 h6 {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body a {
 	color: var(--darkmode-fiken-text);
@@ -119,7 +119,7 @@ body .panel .pg-kompakt-dok-info p {
 }
 
 body .panel.bankkonti .vanlig .ng-binding {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 	font-weight: 500;
 }
 body .panel.bankkonti .vanlig .konto-avstemt a,
@@ -289,7 +289,7 @@ body .modal-dialog .modal-content {
 	color: var(--darkmode-fiken-text);
 }
 body .modal-dialog .modal-content .salespitch table caption {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body .modal-dialog .modal-content .salespitch table thead tr th {
 	color: var(--darkmode-fiken-text);
@@ -330,14 +330,14 @@ body .modal-dialog .modal-content a {
 body .modal-dialog .modal-content button.styled-combobox-toggle,
 body .modal-dialog .modal-content .fk-addon-group {
 	background: var(--darkmode-fiken-dark-lighter-light);
-	border-color: var(--darkmode-fiken-text) 80;
+	border-color: var(--darkmode-fiken-text-dark);
 }
 
 body .modal-dialog .modal-content .fk-addon-group fk-icon {
 	color: var(--darkmode-fiken-text);
 }
 body .modal-dialog .modal-content button.styled-combobox-toggle span {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 
 body
@@ -377,7 +377,7 @@ body
 	.styled-combobox-heading
 	input {
 	background-color: var(--darkmode-fiken-dark-dark);
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body
 	.modal-dialog
@@ -454,7 +454,7 @@ body
 	.fk-select-panel
 	.fiken-dropdown-options
 	.list-group-item {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body
 	.modal-dialog
@@ -580,7 +580,7 @@ body textarea,
 body textarea.form-control,
 body .styled-select > select {
 	background-color: var(--darkmode-fiken-dark-dark);
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body .styled-select > select > * {
 	color: var(--darkmode-fiken-text);
@@ -598,13 +598,13 @@ body select {
 }
 
 body button.styled-combobox-toggle {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 
 /* Datepicker */
 body .fiken-datepicker {
 	background-color: var(--darkmode-fiken-dark-lighter);
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 
 body .fiken-datepicker tbody tr > td.today:before {
@@ -712,10 +712,10 @@ body fk-forside-graf .panel-body a.key-number:hover {
 body fk-forside-hendelser .panel-body .flexy-row .flexy-icon {
 }
 body fk-forside-hendelser .panel-body .flexy-row .flexy-right {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body fk-forside-hendelser .panel-body .flexy-row .flexy-subrow {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a {
 	color: var(--darkmode-fiken-text);
@@ -727,7 +727,7 @@ body fk-forside-hendelser .panel-body .flexy-row .flexy-subrow a:hover {
 
 /* Brukerstyrt */
 body fk-forside-brukerstyrt .panel-body p {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body fk-forside-brukerstyrt .panel-body ul li a {
 	color: var(--darkmode-fiken-text);
@@ -784,7 +784,7 @@ body .navbar-brand svg .fk-meny-logo-bunn {
 /* Modal Kontovelger */
 body fk-kontovelger .styled-combobox-content {
 	background-color: var(--darkmode-fiken-dark);
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body fk-kontovelger .styled-combobox-content .styled-combobox-heading {
 	background-color: var(--darkmode-fiken-dark);
@@ -815,7 +815,7 @@ body
 	.fiken-dropdown-options
 	.list-group-item
 	> span {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body
 	fk-kontovelger
@@ -874,13 +874,13 @@ body .hero-section h1.hero-title {
 	color: var(--darkmode-fiken-text);
 }
 body .hero-section p.hero-description {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body h2.heading-two {
 	color: var(--darkmode-fiken-text);
 }
 body p.description {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 
 body .support-review {
@@ -894,7 +894,7 @@ body .support-review .review .review-item p {
 	color: var(--darkmode-fiken-text);
 }
 body .support-review .review .review-item p.review-author {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body .support-review .carousel-ctrl button {
 	background-color: transparent;
@@ -930,7 +930,7 @@ body .fiken-features .features-group .feature h3 {
 	color: var(--darkmode-fiken-text);
 }
 body .fiken-features .features-group .feature p {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body .fiken-features a.btn {
 	background-color: transparent;
@@ -980,7 +980,7 @@ body table tbody tr.bg-warning td > div {
 /* oversikt-salg */
 body #oversikt-salg ul.nav-tabs li a {
 	background-color: var(--darkmode-fiken-dark-lighter-light);
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 /* oversikt-salg */
 body #oversikt-salg ul.nav-tabs li.active a {
@@ -1023,7 +1023,7 @@ body#log-in-page h1 {
 }
 body#log-in-page #loginform label,
 body#log-in-page #loginform label span {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body#log-in-page #loginform button.btn {
 	background-color: transparent;
@@ -1046,7 +1046,7 @@ body .btn.btn-google {
 	background-color: var(--darkmode-fiken-text);
 }
 body .btn.btn-google:hover {
-	background-color: var(--darkmode-fiken-text) 80;
+	background-color: var(--darkmode-fiken-text-dark);
 }
 
 /* Mine foretak */
@@ -1082,7 +1082,7 @@ body ul.pagination li.active a {
 	color: var(--darkmode-fiken-text);
 }
 body ul.pagination li a {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 
 /* Foretaksinnstillinger - fk-oppfolging-robot-lop */
@@ -1118,10 +1118,10 @@ body fk-frist-corona-advarsel .bg-warning p {
 
 /* Årsregnskap */
 body ol.nav-pills li a {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body ol.nav-pills li:hover a {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 	background-color: var(--darkmode-fiken-dark-lighter);
 }
 body ol.nav-pills li.active a {
@@ -1139,7 +1139,7 @@ body ol.nav-pills li.active:hover a {
 	color: var(--darkmode-fiken-text) !important;
 }
 .alert-info > div {
-	color: var(--darkmode-fiken-text) 80 !important;
+	color: var(--darkmode-fiken-text-dark) !important;
 }
 
 /* File Upload */
@@ -1157,7 +1157,7 @@ body
 body fk-kontaktvelger .styled-combobox-content,
 body fk-kontaktvelger .styled-combobox-footer,
 body fk-kontaktvelger .styled-combobox-content .styled-combobox-heading {
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 	background-color: var(--darkmode-fiken-dark-lighter) !important;
 }
 
@@ -1168,7 +1168,7 @@ body
 	.styled-combobox-heading
 	input {
 	background-color: var(--darkmode-fiken-dark-dark);
-	color: var(--darkmode-fiken-text) 80;
+	color: var(--darkmode-fiken-text-dark);
 }
 body fk-kontaktvelger .styled-combobox-body .overskrift-list-group-sm,
 body
