@@ -1,6 +1,7 @@
 /* body */
 
 :root {
+	--darkmode-fiken-d: #1e2936;
 	--darkmode-fiken-dark: #1f2937;
 	--darkmode-fiken-dark-dark: #111826;
 	--darkmode-fiken-dark-lighter: #374151;
@@ -1075,6 +1076,22 @@ body .panel .panel-body .list-group-header span {
 }
 body .panel .panel-body .list-group-header fk-icon svg polyline {
 	stroke: #ffffff;
+}
+
+body .time-grunnlag-panel .list-group a {
+	border: none;
+	background-color: none !important;
+}
+body .time-grunnlag-panel .list-group .list-group-item {
+	background: none;
+	border: none;
+	border-top: 2px solid var(--darkmode-fiken-d);
+}
+body .time-grunnlag-panel .list-group .list-group-item:first-child {
+	border-top: 0;
+}
+body .time-grunnlag-panel .list-group .list-group-item .panel {
+	background-color: var(--darkmode-fiken-dark);
 }
 
 /* Foretaksinnstillinger - foretaksinnstillinger*/
